@@ -6,7 +6,7 @@ export function Testimonials() {
       name: "Priya Sharma",
       image:
         "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/testimonial-1.jpg",
-      text: "RAW Coaching transformed my life completely. Lost 25kg in 6 months and gained confidence I never had before.",
+      text: "GURUAESTHETICS transformed my life completely. Lost 25kg in 6 months and gained confidence I never had before.",
       rating: 5,
     },
     {
@@ -20,7 +20,7 @@ export function Testimonials() {
       name: "Sneha Patel",
       image:
         "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/testimonial-3.jpg",
-      text: "From being overweight to running marathons - RAW Coaching made it possible. Forever grateful!",
+      text: "From being overweight to running marathons - GURUAESTHETICS made it possible. Forever grateful!",
       rating: 5,
     },
   ];
@@ -30,7 +30,7 @@ export function Testimonials() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            WHAT OUR <span className="text-raw-primary">CLIENTS SAY</span>
+            WHAT OUR <span className="text-guru-primary">CLIENTS SAY</span>
           </h2>
           <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
             Real stories from real people who transformed their lives
@@ -66,7 +66,7 @@ export function Testimonials() {
                     {testimonial.name}
                   </div>
                   <div className="font-poppins text-sm text-gray-500">
-                    RAW Coaching Client
+                    GURUAESTHETICS Client
                   </div>
                 </div>
               </div>
