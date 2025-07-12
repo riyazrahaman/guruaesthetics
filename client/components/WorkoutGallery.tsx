@@ -82,7 +82,7 @@ export function WorkoutGallery() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            WORKOUT <span className="text-raw-primary">PROGRAMS</span>
+            WORKOUT <span className="text-guru-primary">PROGRAMS</span>
           </h2>
           <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
             Discover our diverse range of workout programs designed for every
@@ -103,7 +103,7 @@ export function WorkoutGallery() {
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="w-16 h-16 bg-raw-primary rounded-full flex items-center justify-center cursor-pointer hover:bg-raw-secondary transition-colors">
+                  <div className="w-16 h-16 bg-guru-primary rounded-full flex items-center justify-center cursor-pointer hover:bg-guru-secondary transition-colors">
                     <Play className="w-8 h-8 text-white ml-1" fill="white" />
                   </div>
                 </div>
@@ -126,20 +126,20 @@ export function WorkoutGallery() {
 
                 <div className="flex justify-between items-center text-sm mb-4">
                   <div className="flex items-center gap-1">
-                    <Clock className="w-4 h-4 text-raw-primary" />
+                    <Clock className="w-4 h-4 text-guru-primary" />
                     <span className="font-poppins text-gray-600">
                       {workout.duration}
                     </span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <Target className="w-4 h-4 text-raw-primary" />
+                    <Target className="w-4 h-4 text-guru-primary" />
                     <span className="font-poppins text-gray-600">
                       {workout.target}
                     </span>
                   </div>
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-raw-primary to-raw-secondary text-white font-oswald font-semibold py-2 rounded-lg hover:from-raw-secondary hover:to-raw-primary transition-all">
+                <button className="w-full bg-gradient-to-r from-guru-primary to-guru-secondary text-white font-oswald font-semibold py-2 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all">
                   START WORKOUT
                 </button>
               </div>
