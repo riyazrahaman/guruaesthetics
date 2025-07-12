@@ -43,7 +43,7 @@ export function Transformations() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            AMAZING <span className="text-raw-primary">TRANSFORMATIONS</span>
+            AMAZING <span className="text-guru-primary">TRANSFORMATIONS</span>
           </h2>
           <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
             See the incredible results our clients have achieved
@@ -88,7 +88,7 @@ export function Transformations() {
                   <span className="font-poppins text-gray-600">
                     Duration: {transformation.duration}
                   </span>
-                  <span className="font-poppins text-raw-primary font-semibold">
+                  <span className="font-poppins text-guru-primary font-semibold">
                     -{transformation.weightLoss}
                   </span>
                 </div>

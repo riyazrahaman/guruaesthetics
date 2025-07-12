@@ -12,7 +12,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       {/* Newsletter Section */}
-      <div className="bg-gradient-to-r from-raw-primary to-raw-secondary py-12">
+      <div className="bg-gradient-to-r from-guru-primary to-guru-secondary py-12">
         <div className="container mx-auto px-4 text-center">
           <h3 className="font-oswald text-3xl font-bold mb-4">
             JOIN OUR FITNESS COMMUNITY
@@ -42,7 +42,7 @@ export function Footer() {
             <div>
               <img
                 src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/Logo.png"
-                alt="RAW Coaching"
+                alt="GURUAESTHETICS"
                 className="h-12 w-auto mb-4"
               />
               <p className="font-poppins text-gray-400 mb-6">
@@ -50,9 +50,9 @@ export function Footer() {
                 nutrition, and unwavering support.
               </p>
               <div className="flex space-x-4">
-                <Instagram className="w-6 h-6 text-gray-400 hover:text-raw-primary cursor-pointer transition-colors" />
-                <Facebook className="w-6 h-6 text-gray-400 hover:text-raw-primary cursor-pointer transition-colors" />
-                <Youtube className="w-6 h-6 text-gray-400 hover:text-raw-primary cursor-pointer transition-colors" />
+                <Instagram className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
+                <Facebook className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
+                <Youtube className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
               </div>
             </div>
 
@@ -108,7 +108,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    RAW Elite
+                    GURU Elite
                   </a>
                 </li>
                 <li>
@@ -116,7 +116,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    RAW Life
+                    GURU Life
                   </a>
                 </li>
                 <li>
@@ -145,7 +145,7 @@ export function Footer() {
               </h4>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <Phone className="w-5 h-5 text-raw-primary mt-1" />
+                  <Phone className="w-5 h-5 text-guru-primary mt-1" />
                   <div>
                     <div className="font-poppins text-white">
                       +91 7893451235
@@ -156,13 +156,13 @@ export function Footer() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Mail className="w-5 h-5 text-raw-primary mt-1" />
+                  <Mail className="w-5 h-5 text-guru-primary mt-1" />
                   <div className="font-poppins text-white">
-                    rawcoaching@gmail.com
+                    guruaesthetics@gmail.com
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-raw-primary mt-1" />
+                  <MapPin className="w-5 h-5 text-guru-primary mt-1" />
                   <div className="font-poppins text-white">
                     Mumbai, Maharashtra, India
                   </div>
@@ -177,8 +177,8 @@ export function Footer() {
       <div className="border-t border-gray-800 py-6">
         <div className="container mx-auto px-4 text-center">
           <p className="font-poppins text-gray-400">
-            © 2024 RAW Coaching. All rights reserved. | Privacy Policy | Terms
-            of Service
+            © 2024 GURUAESTHETICS. All rights reserved. | Privacy Policy |
+            Terms of Service
           </p>
         </div>
       </div>
