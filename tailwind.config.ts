@@ -13,7 +13,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        oswald: ["Oswald", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
       colors: {
+        raw: {
+          primary: "#FB0303",
+          secondary: "#892222",
+          gradient: "linear-gradient(180deg, #FB0303 0%, #892222 100%)",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -56,6 +65,10 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        gray: {
+          444: "#444444",
+          626: "#626262",
         },
       },
       borderRadius: {
