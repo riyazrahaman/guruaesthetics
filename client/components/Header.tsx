@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header>
       {/* Top Banner */}
-      <div className="bg-gradient-to-r from-raw-primary to-raw-secondary text-white py-2">
+      <div className="bg-gradient-to-r from-guru-primary to-guru-secondary text-white py-2">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-sm">
           <div className="flex items-center gap-4 mb-2 sm:mb-0">
             <div className="flex items-center gap-1">
@@ -14,7 +14,7 @@ export function Header() {
             </div>
             <div className="flex items-center gap-1">
               <Mail size={14} />
-              <span>rawcoaching@gmail.com</span>
+              <span>guruaesthetics@gmail.com</span>
             </div>
           </div>
           <div className="flex items-center gap-1">
@@ -31,7 +31,7 @@ export function Header() {
           <div className="flex items-center">
             <img
               src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/Logo.png"
-              alt="RAW Coaching"
+              alt="GURUAESTHETICS"
               className="h-12 w-auto"
             />
           </div>
@@ -40,44 +40,44 @@ export function Header() {
           <div className="hidden lg:flex items-center space-x-8">
             <a
               href="#"
-              className="font-oswald font-medium text-gray-800 hover:text-raw-primary transition-colors"
+              className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               HOME
             </a>
             <a
               href="#"
-              className="font-oswald font-medium text-gray-800 hover:text-raw-primary transition-colors"
+              className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               ABOUT
             </a>
             <a
               href="#"
-              className="font-oswald font-medium text-gray-800 hover:text-raw-primary transition-colors"
+              className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               SERVICES
             </a>
             <a
               href="#"
-              className="font-oswald font-medium text-gray-800 hover:text-raw-primary transition-colors"
+              className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               PRODUCTS
             </a>
             <a
               href="#"
-              className="font-oswald font-medium text-gray-800 hover:text-raw-primary transition-colors"
+              className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               BLOG
             </a>
             <a
               href="#"
-              className="font-oswald font-medium text-gray-800 hover:text-raw-primary transition-colors"
+              className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               CONTACT
             </a>
           </div>
 
           {/* CTA Button */}
-          <Button className="bg-gradient-to-r from-raw-primary to-raw-secondary hover:from-raw-secondary hover:to-raw-primary text-white font-oswald font-semibold px-6 py-2 text-sm transition-all duration-300">
+          <Button className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-6 py-2 text-sm transition-all duration-300">
             GET STARTED
           </Button>
 
