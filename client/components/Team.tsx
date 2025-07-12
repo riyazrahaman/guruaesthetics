@@ -1,113 +1,89 @@
-import { Instagram, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export function Team() {
-  const trainers = [
-    {
-      name: "Rohit Sharma",
-      role: "Head Trainer & Founder",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      experience: "8+ Years",
-      specialty: "Body Transformation",
-      certifications: ["NASM-CPT", "Precision Nutrition", "ACSM"],
-      bio: "Transformed 500+ lives with his evidence-based approach to fitness and nutrition.",
-    },
-    {
-      name: "Priya Mehta",
-      role: "Senior Nutritionist",
-      image:
-        "https://images.unsplash.com/photo-1594824870007-7a7c31e1777b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      experience: "6+ Years",
-      specialty: "Sports Nutrition",
-      certifications: ["RD", "CSSD", "NASM-CNC"],
-      bio: "Expert in creating sustainable nutrition plans that fuel performance and results.",
-    },
-    {
-      name: "Arjun Singh",
-      role: "Strength & Conditioning Coach",
-      image:
-        "https://images.unsplash.com/photo-1567013127542-490d757e51cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      experience: "7+ Years",
-      specialty: "Strength Training",
-      certifications: ["CSCS", "FMS", "NASM-CES"],
-      bio: "Specializes in helping clients build functional strength and prevent injuries.",
-    },
-    {
-      name: "Kavya Reddy",
-      role: "Women's Fitness Specialist",
-      image:
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      experience: "5+ Years",
-      specialty: "Women's Health",
-      certifications: ["NASM-CPT", "Pre/Postnatal", "Yoga RYT-200"],
-      bio: "Empowers women to achieve their fitness goals through sustainable lifestyle changes.",
-    },
-  ];
+  const trainer = {
+    name: "GURU",
+    role: "Founder & Master Trainer",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    experience: "10+ Years",
+    specialty: "Body Transformation & Aesthetics",
+    certifications: [
+      "Master Trainer",
+      "Nutrition Expert",
+      "Aesthetics Specialist",
+    ],
+    bio: "The mastermind behind GURUAESTHETICS with over a decade of experience in transforming lives through fitness and aesthetics. Dedicated to helping you achieve your dream physique.",
+    instagram:
+      "https://www.instagram.com/gurusthetics?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  };
 
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            MEET OUR <span className="text-guru-primary">EXPERT TEAM</span>
+            MEET YOUR <span className="text-guru-primary">EXPERT</span>
           </h2>
           <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
-            Our certified trainers and nutritionists are here to guide your
-            transformation journey
+            Get to know the master trainer who will guide your transformation
+            journey
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          {trainers.map((trainer, index) => (
-            <div
-              key={index}
-              className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
-            >
-              <div className="relative overflow-hidden">
-                <img
-                  src={trainer.image}
-                  alt={trainer.name}
-                  className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute top-4 left-4 bg-guru-primary text-white px-3 py-1 rounded-full text-xs font-oswald">
-                  {trainer.experience}
-                </div>
-              </div>
-
-              <div className="p-6">
-                <h3 className="font-oswald text-xl font-bold text-gray-800 mb-1">
-                  {trainer.name}
-                </h3>
-                <p className="font-poppins text-guru-primary font-semibold mb-2">
-                  {trainer.role}
-                </p>
-                <p className="font-poppins text-sm text-gray-600 mb-4 leading-relaxed">
-                  {trainer.bio}
-                </p>
-
-                <div className="mb-4">
-                  <div className="font-poppins text-sm text-gray-700 mb-2">
-                    <strong>Specialty:</strong> {trainer.specialty}
-                  </div>
-                  <div className="flex flex-wrap gap-1">
-                    {trainer.certifications.map((cert, idx) => (
-                      <span
-                        key={idx}
-                        className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs font-poppins"
-                      >
-                        {cert}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="flex space-x-3">
-                  <Instagram className="w-5 h-5 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
-                  <Linkedin className="w-5 h-5 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
-                </div>
+        <div className="flex justify-center">
+          <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group max-w-md">
+            <div className="relative overflow-hidden">
+              <img
+                src={trainer.image}
+                alt={trainer.name}
+                className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute top-4 left-4 bg-guru-primary text-white px-3 py-1 rounded-full text-xs font-oswald">
+                {trainer.experience}
               </div>
             </div>
-          ))}
+
+            <div className="p-8">
+              <h3 className="font-oswald text-3xl font-bold text-gray-800 mb-2 text-center">
+                {trainer.name}
+              </h3>
+              <p className="font-poppins text-guru-primary font-semibold mb-4 text-center text-lg">
+                {trainer.role}
+              </p>
+              <p className="font-poppins text-gray-600 mb-6 leading-relaxed text-center">
+                {trainer.bio}
+              </p>
+
+              <div className="mb-6">
+                <div className="font-poppins text-gray-700 mb-3 text-center">
+                  <strong>Specialty:</strong> {trainer.specialty}
+                </div>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  {trainer.certifications.map((cert, idx) => (
+                    <span
+                      key={idx}
+                      className="bg-guru-primary text-white px-3 py-1 rounded-full text-sm font-oswald font-semibold"
+                    >
+                      {cert}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="flex justify-center">
+                <a
+                  href={trainer.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-guru-primary to-guru-secondary text-white px-6 py-3 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all font-oswald font-semibold"
+                >
+                  <Instagram className="w-5 h-5" />
+                  Follow @gurusthetics
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
