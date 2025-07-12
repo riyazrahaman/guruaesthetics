@@ -13,9 +13,9 @@ export function Mission() {
             </h2>
             <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
               At GURUAESTHETICS, we believe every body has the potential for
-              transformation. Our expert trainers and nutritionists work with
-              you to create a personalized fitness journey that fits your
-              lifestyle and goals.
+              transformation. Our expert trainers, nutritionists, and aesthetics
+              specialists work with you to create a personalized fitness and
+              wellness journey that fits your lifestyle and goals.
             </p>
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3">

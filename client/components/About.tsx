@@ -11,9 +11,10 @@ export function About() {
             </h2>
             <p className="font-poppins text-lg text-gray-600 mb-6 leading-relaxed">
               Founded with a passion for transforming lives, GURUAESTHETICS has
-              been India's premier fitness transformation company for over 5
-              years. We believe that fitness is not just about looking good -
-              it's about feeling confident, healthy, and empowered.
+              been India's premier fitness and aesthetics transformation company
+              for over 5 years. We believe that fitness and aesthetics are not
+              just about looking good - it's about feeling confident, healthy,
+              and empowered.
             </p>
             <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
               Our evidence-based approach combines personalized nutrition
