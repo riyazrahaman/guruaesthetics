@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import { openWhatsApp } from "../utils/whatsapp";
 
 export function ConsultantCTA() {
   return (
@@ -13,10 +14,22 @@ export function ConsultantCTA() {
             free consultation and start your transformation journey today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold px-8 py-4 text-lg">
+            <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I want to book a free consultation with GURUAESTHETICS.",
+                )
+              }
+              className="bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold px-8 py-4 text-lg"
+            >
               BOOK FREE CONSULTATION
             </Button>
             <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I saw your number and want to know more about GURUAESTHETICS services.",
+                )
+              }
               variant="outline"
               className="border-2 border-white text-white hover:bg-white hover:text-guru-primary font-oswald font-semibold px-8 py-4 text-lg"
             >

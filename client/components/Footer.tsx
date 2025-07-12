@@ -7,6 +7,7 @@ import {
   Youtube,
 } from "lucide-react";
 import { Button } from "./ui/button";
+import { openWhatsApp } from "../utils/whatsapp";
 
 export function Footer() {
   return (
@@ -27,7 +28,14 @@ export function Footer() {
               placeholder="Enter your email"
               className="flex-1 px-4 py-3 rounded-lg text-gray-800 font-poppins"
             />
-            <Button className="bg-black hover:bg-gray-800 text-white font-oswald font-semibold px-6 py-3">
+            <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I want to subscribe to GURUAESTHETICS newsletter and updates.",
+                )
+              }
+              className="bg-black hover:bg-gray-800 text-white font-oswald font-semibold px-6 py-3"
+            >
               SUBSCRIBE
             </Button>
           </div>
