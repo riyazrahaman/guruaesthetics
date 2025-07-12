@@ -49,7 +49,7 @@ export function Team() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            MEET OUR <span className="text-raw-primary">EXPERT TEAM</span>
+            MEET OUR <span className="text-guru-primary">EXPERT TEAM</span>
           </h2>
           <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
             Our certified trainers and nutritionists are here to guide your
@@ -69,7 +69,7 @@ export function Team() {
                   alt={trainer.name}
                   className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-raw-primary text-white px-3 py-1 rounded-full text-xs font-oswald">
+                <div className="absolute top-4 left-4 bg-guru-primary text-white px-3 py-1 rounded-full text-xs font-oswald">
                   {trainer.experience}
                 </div>
               </div>
@@ -78,7 +78,7 @@ export function Team() {
                 <h3 className="font-oswald text-xl font-bold text-gray-800 mb-1">
                   {trainer.name}
                 </h3>
-                <p className="font-poppins text-raw-primary font-semibold mb-2">
+                <p className="font-poppins text-guru-primary font-semibold mb-2">
                   {trainer.role}
                 </p>
                 <p className="font-poppins text-sm text-gray-600 mb-4 leading-relaxed">
@@ -102,8 +102,8 @@ export function Team() {
                 </div>
 
                 <div className="flex space-x-3">
-                  <Instagram className="w-5 h-5 text-gray-400 hover:text-raw-primary cursor-pointer transition-colors" />
-                  <Linkedin className="w-5 h-5 text-gray-400 hover:text-raw-primary cursor-pointer transition-colors" />
+                  <Instagram className="w-5 h-5 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
+                  <Linkedin className="w-5 h-5 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
                 </div>
               </div>
             </div>

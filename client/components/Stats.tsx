@@ -29,7 +29,7 @@ export function Stats() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-r from-raw-primary to-raw-secondary">
+    <section className="py-20 bg-gradient-to-r from-guru-primary to-guru-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-white mb-4">
@@ -48,7 +48,7 @@ export function Stats() {
               className="text-center bg-white/10 backdrop-blur-sm rounded-xl p-8 hover:bg-white/20 transition-all group"
             >
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
-                <stat.icon className="w-8 h-8 text-raw-primary" />
+                <stat.icon className="w-8 h-8 text-guru-primary" />
               </div>
               <div className="font-oswald text-4xl lg:text-5xl font-bold text-white mb-2">
                 {stat.number}
