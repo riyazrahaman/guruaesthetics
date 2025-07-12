@@ -6,7 +6,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/hero-bg.jpg"
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
           alt="Hero Background"
           className="w-full h-full object-cover opacity-70"
         />
@@ -27,11 +27,11 @@ export function Hero() {
 
           {/* GURUAESTHETICS Logo/Text */}
           <div className="flex items-center mb-8">
-            <img
-              src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/Logo.png"
-              alt="GURUAESTHETICS"
-              className="h-16 w-auto mr-4"
-            />
+            <div className="w-16 h-16 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mr-4">
+              <span className="text-white font-oswald font-bold text-2xl">
+                GA
+              </span>
+            </div>
             <span className="font-oswald text-3xl lg:text-4xl font-bold">
               COACHING
             </span>

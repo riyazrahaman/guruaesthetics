@@ -29,11 +29,16 @@ export function Header() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <img
-              src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/Logo.png"
-              alt="GURUAESTHETICS"
-              className="h-12 w-auto"
-            />
+            <div className="flex items-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mr-3">
+                <span className="text-white font-oswald font-bold text-lg">
+                  GA
+                </span>
+              </div>
+              <span className="font-oswald text-2xl font-bold text-gray-800">
+                GURUAESTHETICS
+              </span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
