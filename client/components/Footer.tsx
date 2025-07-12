@@ -40,11 +40,16 @@ export function Footer() {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div>
-              <img
-                src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/Logo.png"
-                alt="GURUAESTHETICS"
-                className="h-12 w-auto mb-4"
-              />
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mr-3">
+                  <span className="text-white font-oswald font-bold text-lg">
+                    GA
+                  </span>
+                </div>
+                <span className="font-oswald text-2xl font-bold text-white">
+                  GURUAESTHETICS
+                </span>
+              </div>
               <p className="font-poppins text-gray-400 mb-6">
                 Transform your body and mind with expert coaching, personalized
                 nutrition, and unwavering support.
