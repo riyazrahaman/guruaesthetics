@@ -81,7 +81,7 @@ export function Services() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            OUR <span className="text-raw-primary">SERVICES</span>
+            OUR <span className="text-guru-primary">SERVICES</span>
           </h2>
           <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
             Comprehensive fitness solutions designed to transform your body and
@@ -95,7 +95,7 @@ export function Services() {
               key={index}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow group"
             >
-              <div className="w-16 h-16 bg-gradient-to-r from-raw-primary to-raw-secondary rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <service.icon className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-oswald text-2xl font-bold text-gray-800 mb-4">
@@ -107,7 +107,7 @@ export function Services() {
               <ul className="space-y-2">
                 {service.features.map((feature, idx) => (
                   <li key={idx} className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-raw-primary rounded-full"></div>
+                    <div className="w-2 h-2 bg-guru-primary rounded-full"></div>
                     <span className="font-poppins text-sm text-gray-700">
                       {feature}
                     </span>
