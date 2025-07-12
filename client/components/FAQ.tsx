@@ -52,7 +52,8 @@ export function FAQ() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            FREQUENTLY ASKED <span className="text-raw-primary">QUESTIONS</span>
+            FREQUENTLY ASKED{" "}
+            <span className="text-guru-primary">QUESTIONS</span>
           </h2>
           <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
             Find answers to common questions about our programs and services
@@ -73,7 +74,7 @@ export function FAQ() {
                   {faq.question}
                 </h3>
                 {openIndex === index ? (
-                  <ChevronUp className="w-5 h-5 text-raw-primary flex-shrink-0" />
+                  <ChevronUp className="w-5 h-5 text-guru-primary flex-shrink-0" />
                 ) : (
                   <ChevronDown className="w-5 h-5 text-gray-400 flex-shrink-0" />
                 )}
