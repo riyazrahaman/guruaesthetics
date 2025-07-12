@@ -18,7 +18,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        raw: {
+        guru: {
           primary: "#FB0303",
           secondary: "#892222",
           gradient: "linear-gradient(180deg, #FB0303 0%, #892222 100%)",
