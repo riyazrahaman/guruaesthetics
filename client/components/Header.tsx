@@ -10,7 +10,7 @@ export function Header() {
           <div className="flex items-center gap-4 mb-2 sm:mb-0">
             <div className="flex items-center gap-1">
               <Phone size={14} />
-              <span>+91 7893451235</span>
+              <span>+91 9618772020</span>
             </div>
             <div className="flex items-center gap-1">
               <Mail size={14} />
