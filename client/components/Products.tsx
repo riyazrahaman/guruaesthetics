@@ -17,11 +17,11 @@ export function Products() {
           {/* GURU ELITE */}
           <div className="bg-gradient-to-br from-gray-900 to-black text-white p-8 rounded-xl relative overflow-hidden">
             <div className="absolute top-4 right-4">
-              <img
-                src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/raw-elite-logo.png"
-                alt="GURU ELITE"
-                className="h-12 w-auto"
-              />
+              <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
+                <span className="font-oswald text-lg font-bold text-white">
+                  GURU ELITE
+                </span>
+              </div>
             </div>
             <div className="mb-6">
               <h3 className="font-oswald text-3xl font-bold mb-2">
@@ -65,11 +65,11 @@ export function Products() {
           {/* GURU LIFE */}
           <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden">
             <div className="absolute top-4 right-4">
-              <img
-                src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/raw-life-logo.png"
-                alt="GURU LIFE"
-                className="h-12 w-auto"
-              />
+              <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
+                <span className="font-oswald text-lg font-bold text-white">
+                  GURU LIFE
+                </span>
+              </div>
             </div>
             <div className="mb-6">
               <h3 className="font-oswald text-3xl font-bold mb-2">GURU LIFE</h3>
