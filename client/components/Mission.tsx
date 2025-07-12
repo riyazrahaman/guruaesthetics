@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import { openWhatsApp } from "../utils/whatsapp";
 
 export function Mission() {
   return (
@@ -37,7 +38,14 @@ export function Mission() {
                 </span>
               </div>
             </div>
-            <Button className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-8 py-3">
+            <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I want to start my fitness journey with GURUAESTHETICS.",
+                )
+              }
+              className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-8 py-3"
+            >
               START YOUR JOURNEY
             </Button>
           </div>

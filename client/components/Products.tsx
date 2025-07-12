@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import { openWhatsApp } from "../utils/whatsapp";
 
 export function Products() {
   return (
@@ -57,7 +58,14 @@ export function Products() {
                 per month
               </div>
             </div>
-            <Button className="w-full bg-guru-primary hover:bg-guru-secondary text-white font-oswald font-semibold py-3">
+            <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I'm interested in the GURU ELITE program. Can you provide more details?",
+                )
+              }
+              className="w-full bg-guru-primary hover:bg-guru-secondary text-white font-oswald font-semibold py-3"
+            >
               CHOOSE ELITE
             </Button>
           </div>
@@ -101,7 +109,14 @@ export function Products() {
                 per month
               </div>
             </div>
-            <Button className="w-full bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold py-3">
+            <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I'm interested in the GURU LIFE program. Can you provide more details?",
+                )
+              }
+              className="w-full bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold py-3"
+            >
               CHOOSE LIFE
             </Button>
           </div>
