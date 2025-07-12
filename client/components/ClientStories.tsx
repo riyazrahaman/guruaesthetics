@@ -8,7 +8,7 @@ export function ClientStories() {
       story:
         "I was 95kg and struggling with diabetes. GURUAESTHETICS not only helped me lose weight but also completely reversed my health conditions. Now I'm fitter than I was in my 20s!",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/client-story-1.jpg",
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: ["30kg weight loss", "Reversed diabetes", "Improved energy"],
     },
     {
@@ -17,7 +17,7 @@ export function ClientStories() {
       story:
         "I never thought I'd compete in a fitness competition. GURUAESTHETICS believed in me when I didn't believe in myself. They guided me from complete beginner to competition stage!",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/client-story-2.jpg",
+        "https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
         "First competition win",
         "45% body fat reduction",
@@ -30,7 +30,7 @@ export function ClientStories() {
       story:
         "After having my second child, I felt lost and out of shape. GURUAESTHETICS's women's program helped me regain my confidence and achieve the best shape of my life.",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/client-story-3.jpg",
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
         "Post-pregnancy recovery",
         "Increased strength",
@@ -45,21 +45,21 @@ export function ClientStories() {
       headline: "GURUAESTHETICS: Transforming India's Fitness Landscape",
       date: "March 2024",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/media-1.jpg",
+        "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     },
     {
       outlet: "Hindustan Times",
       headline: "The Science Behind GURUAESTHETICS's Success Stories",
       date: "February 2024",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/media-2.jpg",
+        "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     },
     {
       outlet: "Economic Times",
       headline: "How GURUAESTHETICS is Revolutionizing Online Fitness",
       date: "January 2024",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/media-3.jpg",
+        "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     },
   ];
 

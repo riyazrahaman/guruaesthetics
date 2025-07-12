@@ -8,7 +8,7 @@ export function WorkoutGallery() {
       difficulty: "Intermediate",
       target: "Full Body",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/workout-1.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description:
         "High-intensity interval training designed to maximize fat burn and improve cardiovascular fitness.",
     },
@@ -18,7 +18,7 @@ export function WorkoutGallery() {
       difficulty: "Beginner",
       target: "Upper Body",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/workout-2.jpg",
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description:
         "Progressive strength training focusing on building lean muscle mass and functional strength.",
     },
@@ -28,7 +28,7 @@ export function WorkoutGallery() {
       difficulty: "Advanced",
       target: "Core",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/workout-3.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description:
         "Intense core workout targeting all areas of your midsection for definition and strength.",
     },
@@ -38,7 +38,7 @@ export function WorkoutGallery() {
       difficulty: "Intermediate",
       target: "Lower Body",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/workout-4.jpg",
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description:
         "Power-focused leg workout building explosive strength and muscle definition.",
     },
@@ -48,7 +48,7 @@ export function WorkoutGallery() {
       difficulty: "Beginner",
       target: "Cardio",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/workout-5.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description:
         "Heart-pumping cardio session perfect for burning calories and improving endurance.",
     },
@@ -58,7 +58,7 @@ export function WorkoutGallery() {
       difficulty: "Advanced",
       target: "Full Body",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/workout-6.jpg",
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description:
         "Complete body sculpting workout combining strength, cardio, and functional movements.",
     },
