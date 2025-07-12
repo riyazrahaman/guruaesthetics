@@ -6,7 +6,7 @@ export function Team() {
       name: "Rohit Sharma",
       role: "Head Trainer & Founder",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/trainer-1.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       experience: "8+ Years",
       specialty: "Body Transformation",
       certifications: ["NASM-CPT", "Precision Nutrition", "ACSM"],
@@ -16,7 +16,7 @@ export function Team() {
       name: "Priya Mehta",
       role: "Senior Nutritionist",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/trainer-2.jpg",
+        "https://images.unsplash.com/photo-1594824870007-7a7c31e1777b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       experience: "6+ Years",
       specialty: "Sports Nutrition",
       certifications: ["RD", "CSSD", "NASM-CNC"],
@@ -26,7 +26,7 @@ export function Team() {
       name: "Arjun Singh",
       role: "Strength & Conditioning Coach",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/trainer-3.jpg",
+        "https://images.unsplash.com/photo-1567013127542-490d757e51cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       experience: "7+ Years",
       specialty: "Strength Training",
       certifications: ["CSCS", "FMS", "NASM-CES"],
@@ -36,7 +36,7 @@ export function Team() {
       name: "Kavya Reddy",
       role: "Women's Fitness Specialist",
       image:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/trainer-4.jpg",
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       experience: "5+ Years",
       specialty: "Women's Health",
       certifications: ["NASM-CPT", "Pre/Postnatal", "Yoga RYT-200"],

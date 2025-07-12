@@ -2,36 +2,36 @@ export function Transformations() {
   const transformations = [
     {
       before:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/before-1.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       after:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/after-1.jpg",
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       name: "Amit Kumar",
       duration: "8 months",
       weightLoss: "30kg",
     },
     {
       before:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/before-2.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       after:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/after-2.jpg",
+        "https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       name: "Neha Singh",
       duration: "6 months",
       weightLoss: "22kg",
     },
     {
       before:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/before-3.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       after:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/after-3.jpg",
+        "https://images.unsplash.com/photo-1567013127542-490d757e51cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       name: "Rajesh Mehta",
       duration: "10 months",
       weightLoss: "45kg",
     },
     {
       before:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/before-4.jpg",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       after:
-        "https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/after-4.jpg",
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
       name: "Kavya Reddy",
       duration: "5 months",
       weightLoss: "18kg",
