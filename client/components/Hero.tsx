@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import { openWhatsApp } from "../utils/whatsapp";
 
 export function Hero() {
   return (
@@ -47,12 +48,22 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I want to start my transformation journey with GURUAESTHETICS.",
+                )
+              }
               className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105"
               size="lg"
             >
               START YOUR TRANSFORMATION
             </Button>
             <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I want to learn more about GURUAESTHETICS programs.",
+                )
+              }
               variant="outline"
               className="border-2 border-white text-white hover:bg-white hover:text-black font-oswald font-semibold px-8 py-4 text-lg transition-all duration-300"
               size="lg"

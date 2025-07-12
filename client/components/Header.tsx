@@ -1,5 +1,6 @@
 import { Phone, Mail, Truck } from "lucide-react";
 import { Button } from "./ui/button";
+import { openWhatsApp } from "../utils/whatsapp";
 
 export function Header() {
   return (
@@ -82,7 +83,14 @@ export function Header() {
           </div>
 
           {/* CTA Button */}
-          <Button className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-6 py-2 text-sm transition-all duration-300">
+          <Button
+            onClick={() =>
+              openWhatsApp(
+                "Hi! I want to get started with GURUAESTHETICS programs.",
+              )
+            }
+            className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-6 py-2 text-sm transition-all duration-300"
+          >
             GET STARTED
           </Button>
 
