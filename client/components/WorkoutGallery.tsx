@@ -1,4 +1,5 @@
 import { Play, Clock, Target } from "lucide-react";
+import { openWhatsApp } from "../utils/whatsapp";
 
 export function WorkoutGallery() {
   const workouts = [
@@ -139,7 +140,14 @@ export function WorkoutGallery() {
                   </div>
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-guru-primary to-guru-secondary text-white font-oswald font-semibold py-2 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all">
+                <button
+                  onClick={() =>
+                    openWhatsApp(
+                      `Hi! I'm interested in the ${workout.title} program. Can you help me get started?`,
+                    )
+                  }
+                  className="w-full bg-gradient-to-r from-guru-primary to-guru-secondary text-white font-oswald font-semibold py-2 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all"
+                >
                   START WORKOUT
                 </button>
               </div>
