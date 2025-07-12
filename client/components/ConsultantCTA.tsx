@@ -20,7 +20,7 @@ export function ConsultantCTA() {
               variant="outline"
               className="border-2 border-white text-white hover:bg-white hover:text-guru-primary font-oswald font-semibold px-8 py-4 text-lg"
             >
-              CALL NOW: +91 7893451235
+              CALL NOW: +91 9618772020
             </Button>
           </div>
         </div>

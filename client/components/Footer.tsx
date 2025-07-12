@@ -148,7 +148,7 @@ export function Footer() {
                   <Phone className="w-5 h-5 text-guru-primary mt-1" />
                   <div>
                     <div className="font-poppins text-white">
-                      +91 7893451235
+                      +91 9618772020
                     </div>
                     <div className="font-poppins text-gray-400 text-sm">
                       Mon-Sat 9AM-8PM
