@@ -81,7 +81,7 @@ export function About() {
 
           <div className="relative">
             <img
-              src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/about-trainer.jpg"
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="GURUAESTHETICS Trainer"
               className="w-full h-auto rounded-lg shadow-lg"
             />

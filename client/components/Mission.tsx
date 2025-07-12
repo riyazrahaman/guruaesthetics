@@ -43,7 +43,7 @@ export function Mission() {
           </div>
           <div className="relative">
             <img
-              src="https://cdn.builder.io/api/v1/assets/366dffc22aa74658b3ec0d3a7655c090/transformation-before-after.jpg"
+              src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Body Transformation"
               className="w-full h-auto rounded-lg shadow-lg"
             />
