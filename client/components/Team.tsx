@@ -5,7 +5,7 @@ export function Team() {
     name: "GURU",
     role: "Founder & Master Trainer",
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F366dffc22aa74658b3ec0d3a7655c090%2F47e7c2fdc7004ed6a3162baaa9ba79c9?format=webp&width=800",
     experience: "10+ Years",
     specialty: "Body Transformation & Aesthetics",
     certifications: [
@@ -19,51 +19,47 @@ export function Team() {
   };
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-white min-h-screen flex items-center">
+      <div className="w-full">
         <div className="text-center mb-16">
-          <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="font-oswald text-4xl lg:text-6xl font-bold text-gray-800 mb-4">
             MEET YOUR <span className="text-guru-primary">EXPERT</span>
           </h2>
-          <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="font-poppins text-xl text-gray-600 max-w-3xl mx-auto">
             Get to know the master trainer who will guide your transformation
             journey
           </p>
         </div>
 
-        <div className="flex justify-center">
-          <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group max-w-md">
-            <div className="relative overflow-hidden">
-              <img
-                src={trainer.image}
-                alt={trainer.name}
-                className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute top-4 left-4 bg-guru-primary text-white px-3 py-1 rounded-full text-xs font-oswald">
-                {trainer.experience}
+        <div className="grid lg:grid-cols-2 min-h-[70vh]">
+          {/* Left Content */}
+          <div className="flex items-center justify-center p-8 lg:p-16">
+            <div className="max-w-lg">
+              <div className="mb-6">
+                <div className="inline-block bg-guru-primary text-white px-4 py-2 rounded-full text-sm font-oswald font-semibold mb-4">
+                  {trainer.experience}
+                </div>
+                <h3 className="font-oswald text-5xl lg:text-6xl font-bold text-gray-800 mb-2">
+                  {trainer.name}
+                </h3>
+                <p className="font-poppins text-guru-primary font-semibold text-2xl mb-6">
+                  {trainer.role}
+                </p>
               </div>
-            </div>
 
-            <div className="p-8">
-              <h3 className="font-oswald text-3xl font-bold text-gray-800 mb-2 text-center">
-                {trainer.name}
-              </h3>
-              <p className="font-poppins text-guru-primary font-semibold mb-4 text-center text-lg">
-                {trainer.role}
-              </p>
-              <p className="font-poppins text-gray-600 mb-6 leading-relaxed text-center">
+              <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
                 {trainer.bio}
               </p>
 
-              <div className="mb-6">
-                <div className="font-poppins text-gray-700 mb-3 text-center">
+              <div className="mb-8">
+                <div className="font-poppins text-lg text-gray-700 mb-4">
                   <strong>Specialty:</strong> {trainer.specialty}
                 </div>
-                <div className="flex flex-wrap gap-2 justify-center">
+                <div className="flex flex-wrap gap-3">
                   {trainer.certifications.map((cert, idx) => (
                     <span
                       key={idx}
-                      className="bg-guru-primary text-white px-3 py-1 rounded-full text-sm font-oswald font-semibold"
+                      className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg text-sm font-oswald font-semibold border border-gray-200"
                     >
                       {cert}
                     </span>
@@ -71,16 +67,34 @@ export function Team() {
                 </div>
               </div>
 
-              <div className="flex justify-center">
-                <a
-                  href={trainer.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-gradient-to-r from-guru-primary to-guru-secondary text-white px-6 py-3 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all font-oswald font-semibold"
-                >
-                  <Instagram className="w-5 h-5" />
-                  Follow @gurusthetics
-                </a>
+              <a
+                href={trainer.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 bg-gradient-to-r from-guru-primary to-guru-secondary text-white px-8 py-4 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all font-oswald font-semibold text-lg group"
+              >
+                <Instagram className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                Follow @gurusthetics
+              </a>
+            </div>
+          </div>
+
+          {/* Right Image */}
+          <div className="relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
+            <img
+              src={trainer.image}
+              alt={trainer.name}
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute bottom-8 right-8 z-20">
+              <div className="bg-white/90 backdrop-blur-sm p-4 rounded-lg">
+                <div className="font-oswald text-2xl font-bold text-guru-primary">
+                  500+
+                </div>
+                <div className="font-poppins text-sm text-gray-700">
+                  Transformations
+                </div>
               </div>
             </div>
           </div>
