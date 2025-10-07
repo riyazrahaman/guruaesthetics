@@ -25,9 +25,7 @@ export function Products() {
               </div>
             </div>
             <div className="mb-6">
-              <h3 className="font-oswald text-3xl font-bold mb-2">
-                FIT ELITE
-              </h3>
+              <h3 className="font-oswald text-3xl font-bold mb-2">FIT ELITE</h3>
               <p className="font-poppins text-lg text-gray-300">
                 Premium transformation program
               </p>
