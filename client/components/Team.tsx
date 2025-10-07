@@ -15,7 +15,7 @@ export function Team() {
     ],
     bio: "The mastermind behind the Syed Sanower coaching experience with over a decade of transforming lives through fitness and aesthetics. Dedicated to helping you achieve your dream physique.",
     instagram:
-      "https://www.instagram.com/gurusthetics?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "https://www.instagram.com/sweat_arena_zone?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   };
 
   return (
@@ -77,7 +77,7 @@ export function Team() {
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-guru-primary to-guru-secondary text-white px-8 py-4 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all font-oswald font-semibold text-lg group"
               >
                 <Instagram className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                Follow @gurusthetics
+                Follow Syed Sanower
               </a>
             </div>
           </div>
