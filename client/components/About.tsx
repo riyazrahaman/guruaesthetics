@@ -23,7 +23,7 @@ export function About() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-guru-primary rounded-full flex items-center justify-center">
                   <Users className="w-6 h-6 text-white" />
