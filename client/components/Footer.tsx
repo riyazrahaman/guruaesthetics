@@ -67,7 +67,8 @@ export function Footer() {
                   href="https://www.instagram.com/sweat_arena_zone?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-guru-primary transition-colors"
+                  className="inline-flex text-gray-400 hover:text-guru-primary cursor-pointer transition-colors"
+                  aria-label="Follow Syed Sanower on Instagram"
                 >
                   <Instagram className="w-6 h-6" />
                 </a>
