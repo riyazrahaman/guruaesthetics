@@ -26,7 +26,7 @@ export function Hero() {
             WITH
           </h1>
 
-          {/* GURUAESTHETICS Logo/Text */}
+          {/* Syed Sanower Logo/Text */}
           <div className="flex items-center mb-8">
             <div className="w-16 h-16 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mr-4">
               <span className="text-white font-oswald font-bold text-2xl">
@@ -50,7 +50,7 @@ export function Hero() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to start my transformation journey with GURUAESTHETICS.",
+                  "Hi! I want to start my transformation journey with Syed Sanower.",
                 )
               }
               className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105"
@@ -61,7 +61,7 @@ export function Hero() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to learn more about GURUAESTHETICS programs.",
+                  "Hi! I want to learn more about Syed Sanower programs.",
                 )
               }
               variant="outline"
