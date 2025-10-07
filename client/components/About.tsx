@@ -7,10 +7,10 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              ABOUT <span className="text-guru-primary">GURUAESTHETICS</span>
+              ABOUT <span className="text-guru-primary">Syed Sanower</span>
             </h2>
             <p className="font-poppins text-lg text-gray-600 mb-6 leading-relaxed">
-              Founded with a passion for transforming lives, GURUAESTHETICS has
+              Founded with a passion for transforming lives, Syed Sanower has
               been India's premier fitness and aesthetics transformation company
               for over 5 years. We believe that fitness and aesthetics are not
               just about looking good - it's about feeling confident, healthy,
@@ -82,7 +82,7 @@ export function About() {
           <div className="relative">
             <img
               src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              alt="GURUAESTHETICS Trainer"
+              alt="Syed Sanower Trainer"
               className="w-full h-auto rounded-lg shadow-lg"
             />
             <div className="absolute -bottom-8 -left-8 bg-gradient-to-r from-guru-primary to-guru-secondary text-white p-6 rounded-lg shadow-xl">
