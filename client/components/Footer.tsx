@@ -63,7 +63,14 @@ export function Footer() {
                 nutrition, and unwavering support.
               </p>
               <div className="flex space-x-4">
-                <Instagram className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
+                <a
+                  href="https://www.instagram.com/sweat_arena_zone?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-guru-primary transition-colors"
+                >
+                  <Instagram className="w-6 h-6" />
+                </a>
                 <Facebook className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
                 <Youtube className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
               </div>
