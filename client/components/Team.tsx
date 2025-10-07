@@ -2,10 +2,10 @@ import { Instagram } from "lucide-react";
 
 export function Team() {
   const trainer = {
-    name: "GURU",
+    name: "Syed Sanower",
     role: "Founder & Master Trainer",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F366dffc22aa74658b3ec0d3a7655c090%2F47e7c2fdc7004ed6a3162baaa9ba79c9?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F366dffc22aa74658b3ec0d3a7655c090%2Fe38c2d9a57714d75ad8ce46f2f2bf4ab?format=webp&width=800",
     experience: "10+ Years",
     specialty: "Body Transformation & Aesthetics",
     certifications: [
@@ -13,7 +13,7 @@ export function Team() {
       "Nutrition Expert",
       "Aesthetics Specialist",
     ],
-    bio: "The mastermind behind GURUAESTHETICS with over a decade of experience in transforming lives through fitness and aesthetics. Dedicated to helping you achieve your dream physique.",
+    bio: "The mastermind behind the Syed Sanower coaching experience with over a decade of transforming lives through fitness and aesthetics. Dedicated to helping you achieve your dream physique.",
     instagram:
       "https://www.instagram.com/gurusthetics?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   };
@@ -48,7 +48,10 @@ export function Team() {
               </div>
 
               <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
-                {trainer.bio}
+                {trainer.bio}{" "}
+                <strong className="font-semibold text-gray-800">
+                  MENS PHYSIQUE GOLD ICN 2025
+                </strong>
               </p>
 
               <div className="mb-8">
