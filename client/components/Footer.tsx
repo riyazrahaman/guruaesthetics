@@ -121,7 +121,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    GURU Elite
+                    Fit Elite
                   </a>
                 </li>
                 <li>
@@ -129,7 +129,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    GURU Life
+                    Fit Life
                   </a>
                 </li>
                 <li>
