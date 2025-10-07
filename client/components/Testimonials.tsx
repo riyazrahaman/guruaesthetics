@@ -6,7 +6,7 @@ export function Testimonials() {
       name: "Priya Sharma",
       image:
         "https://images.unsplash.com/photo-1494790108755-2616b612b734?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      text: "GURUAESTHETICS transformed my life completely. Lost 25kg in 6 months and gained confidence I never had before.",
+      text: "Syed Sanower transformed my life completely. Lost 25kg in 6 months and gained confidence I never had before.",
       rating: 5,
     },
     {
@@ -20,7 +20,7 @@ export function Testimonials() {
       name: "Sneha Patel",
       image:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      text: "From being overweight to running marathons - GURUAESTHETICS made it possible. Forever grateful!",
+      text: "From being overweight to running marathons - Syed Sanower made it possible. Forever grateful!",
       rating: 5,
     },
   ];
@@ -66,7 +66,7 @@ export function Testimonials() {
                     {testimonial.name}
                   </div>
                   <div className="font-poppins text-sm text-gray-500">
-                    GURUAESTHETICS Client
+                    Syed Sanower Client
                   </div>
                 </div>
               </div>
