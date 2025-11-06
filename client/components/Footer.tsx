@@ -31,7 +31,7 @@ export function Footer() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to subscribe to Syed Sanower newsletter and updates.",
+                  "Hi! I want to subscribe to GURUAESTHETICS newsletter and updates.",
                 )
               }
               className="bg-black hover:bg-gray-800 text-white font-oswald font-semibold px-6 py-3"
@@ -51,11 +51,11 @@ export function Footer() {
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mr-3">
                   <span className="text-white font-oswald font-bold text-lg">
-                    SS
+                    GA
                   </span>
                 </div>
                 <span className="font-oswald text-2xl font-bold text-white">
-                  Syed Sanower
+                  GURUAESTHETICS
                 </span>
               </div>
               <p className="font-poppins text-gray-400 mb-6">
@@ -63,15 +63,7 @@ export function Footer() {
                 nutrition, and unwavering support.
               </p>
               <div className="flex space-x-4">
-                <a
-                  href="https://www.instagram.com/sweat_arena_zone?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex text-gray-400 hover:text-guru-primary cursor-pointer transition-colors"
-                  aria-label="Follow Syed Sanower on Instagram"
-                >
-                  <Instagram className="w-6 h-6" />
-                </a>
+                <Instagram className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
                 <Facebook className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
                 <Youtube className="w-6 h-6 text-gray-400 hover:text-guru-primary cursor-pointer transition-colors" />
               </div>
@@ -129,7 +121,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    Fit Elite
+                    GURU Elite
                   </a>
                 </li>
                 <li>
@@ -137,7 +129,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    Fit Life
+                    GURU Life
                   </a>
                 </li>
                 <li>
@@ -179,7 +171,7 @@ export function Footer() {
                 <div className="flex items-start gap-3">
                   <Mail className="w-5 h-5 text-guru-primary mt-1" />
                   <div className="font-poppins text-white">
-                    syedsanower@gmail.com
+                    guruaesthetics@gmail.com
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
