@@ -17,7 +17,7 @@ export function ConsultantCTA() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to book a free consultation with Syed Sanower.",
+                  "Hi! I want to book a free consultation with GURUAESTHETICS.",
                 )
               }
               className="bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold px-8 py-4 text-lg"
@@ -27,7 +27,7 @@ export function ConsultantCTA() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I saw your number and want to know more about Syed Sanower services.",
+                  "Hi! I saw your number and want to know more about GURUAESTHETICS services.",
                 )
               }
               variant="outline"
