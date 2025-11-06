@@ -15,7 +15,7 @@ export function Header() {
             </div>
             <div className="flex items-center gap-1">
               <Mail size={14} />
-              <span>syedsanower@gmail.com</span>
+              <span>guruaesthetics@gmail.com</span>
             </div>
           </div>
           <div className="flex items-center gap-1">
@@ -33,11 +33,11 @@ export function Header() {
             <div className="flex items-center">
               <div className="w-12 h-12 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mr-3">
                 <span className="text-white font-oswald font-bold text-lg">
-                  SS
+                  GA
                 </span>
               </div>
               <span className="font-oswald text-2xl font-bold text-gray-800">
-                Syed Sanower
+                GURUAESTHETICS
               </span>
             </div>
           </div>
@@ -86,7 +86,7 @@ export function Header() {
           <Button
             onClick={() =>
               openWhatsApp(
-                "Hi! I want to get started with Syed Sanower programs.",
+                "Hi! I want to get started with GURUAESTHETICS programs.",
               )
             }
             className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-6 py-2 text-sm transition-all duration-300"
