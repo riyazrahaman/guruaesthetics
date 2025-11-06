@@ -1,5 +1,5 @@
 export const openWhatsApp = (message?: string) => {
-  const phoneNumber = "919618772020"; // Without + sign for WhatsApp
+  const phoneNumber = "918754712377"; // Without + sign for WhatsApp
   const defaultMessage =
     "Hi! I'm interested in GURUAESTHETICS services. Can you help me?";
   const text = encodeURIComponent(message || defaultMessage);
