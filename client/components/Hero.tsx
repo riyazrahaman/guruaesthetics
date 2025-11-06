@@ -26,11 +26,11 @@ export function Hero() {
             WITH
           </h1>
 
-          {/* Syed Sanower Logo/Text */}
+          {/* GURUAESTHETICS Logo/Text */}
           <div className="flex items-center mb-8">
             <div className="w-16 h-16 bg-gradient-to-r from-guru-primary to-guru-secondary rounded-full flex items-center justify-center mr-4">
               <span className="text-white font-oswald font-bold text-2xl">
-                SS
+                GA
               </span>
             </div>
             <span className="font-oswald text-3xl lg:text-4xl font-bold">
@@ -50,7 +50,7 @@ export function Hero() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to start my transformation journey with Syed Sanower.",
+                  "Hi! I want to start my transformation journey with GURUAESTHETICS.",
                 )
               }
               className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105"
@@ -61,7 +61,7 @@ export function Hero() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to learn more about Syed Sanower programs.",
+                  "Hi! I want to learn more about GURUAESTHETICS programs.",
                 )
               }
               variant="outline"
@@ -73,7 +73,7 @@ export function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12 max-w-md">
+          <div className="grid grid-cols-3 gap-8 mt-12 max-w-md">
             <div className="text-center">
               <div className="font-oswald text-3xl lg:text-4xl font-bold text-guru-primary">
                 500+
