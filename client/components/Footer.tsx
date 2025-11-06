@@ -190,8 +190,8 @@ export function Footer() {
       <div className="border-t border-gray-800 py-6">
         <div className="container mx-auto px-4 text-center">
           <p className="font-poppins text-gray-400">
-            © 2024 Syed Sanower. All rights reserved. | Privacy Policy | Terms
-            of Service
+            © 2024 GURUAESTHETICS. All rights reserved. | Privacy Policy |
+            Terms of Service
           </p>
         </div>
       </div>
