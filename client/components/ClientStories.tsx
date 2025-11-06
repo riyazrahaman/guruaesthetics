@@ -6,7 +6,7 @@ export function ClientStories() {
       headline: "Lost 30kg in 8 Months",
       client: "Rajesh Kumar",
       story:
-        "I was 95kg and struggling with diabetes. Syed Sanower not only helped me lose weight but also completely reversed my health conditions. Now I'm fitter than I was in my 20s!",
+        "I was 95kg and struggling with diabetes. GURUAESTHETICS not only helped me lose weight but also completely reversed my health conditions. Now I'm fitter than I was in my 20s!",
       image:
         "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: ["30kg weight loss", "Reversed diabetes", "Improved energy"],
@@ -15,7 +15,7 @@ export function ClientStories() {
       headline: "From Couch to Competition",
       client: "Priya Sharma",
       story:
-        "I never thought I'd compete in a fitness competition. Syed Sanower believed in me when I didn't believe in myself. They guided me from complete beginner to competition stage!",
+        "I never thought I'd compete in a fitness competition. GURUAESTHETICS believed in me when I didn't believe in myself. They guided me from complete beginner to competition stage!",
       image:
         "https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
@@ -28,7 +28,7 @@ export function ClientStories() {
       headline: "Postpartum Transformation",
       client: "Anita Singh",
       story:
-        "After having my second child, I felt lost and out of shape. Syed Sanower's women's program helped me regain my confidence and achieve the best shape of my life.",
+        "After having my second child, I felt lost and out of shape. GURUAESTHETICS's women's program helped me regain my confidence and achieve the best shape of my life.",
       image:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
@@ -42,21 +42,21 @@ export function ClientStories() {
   const mediaHeadlines = [
     {
       outlet: "Times of India",
-      headline: "Syed Sanower: Transforming India's Fitness Landscape",
+      headline: "GURUAESTHETICS: Transforming India's Fitness Landscape",
       date: "March 2024",
       image:
         "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     },
     {
       outlet: "Hindustan Times",
-      headline: "The Science Behind Syed Sanower's Success Stories",
+      headline: "The Science Behind GURUAESTHETICS's Success Stories",
       date: "February 2024",
       image:
         "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     },
     {
       outlet: "Economic Times",
-      headline: "How Syed Sanower is Revolutionizing Online Fitness",
+      headline: "How GURUAESTHETICS is Revolutionizing Online Fitness",
       date: "January 2024",
       image:
         "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
@@ -125,7 +125,7 @@ export function ClientStories() {
               IN THE <span className="text-guru-primary">MEDIA</span>
             </h2>
             <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
-              See what leading publications are saying about Syed Sanower
+              See what leading publications are saying about GURUAESTHETICS
             </p>
           </div>
 
