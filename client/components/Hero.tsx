@@ -60,9 +60,7 @@ export function Hero() {
             </Button>
             <Button
               onClick={() =>
-                openWhatsApp(
-                  "Hi! I want to get started with GURUAESTHETICS.",
-                )
+                openWhatsApp("Hi! I want to get started with GURUAESTHETICS.")
               }
               className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105"
               size="lg"
