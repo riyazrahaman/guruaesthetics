@@ -2,10 +2,10 @@ import { Instagram } from "lucide-react";
 
 export function Team() {
   const trainer = {
-    name: "Syed Sanower",
+    name: "GURU",
     role: "Founder & Master Trainer",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F366dffc22aa74658b3ec0d3a7655c090%2Fe38c2d9a57714d75ad8ce46f2f2bf4ab?format=webp&width=800",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     experience: "10+ Years",
     specialty: "Body Transformation & Aesthetics",
     certifications: [
@@ -13,9 +13,9 @@ export function Team() {
       "Nutrition Expert",
       "Aesthetics Specialist",
     ],
-    bio: "The mastermind behind the Syed Sanower coaching experience with over a decade of transforming lives through fitness and aesthetics. Dedicated to helping you achieve your dream physique.",
+    bio: "The mastermind behind GURUAESTHETICS with over a decade of experience in transforming lives through fitness and aesthetics. Dedicated to helping you achieve your dream physique.",
     instagram:
-      "https://www.instagram.com/sweat_arena_zone?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "https://www.instagram.com/gurusthetics?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   };
 
   return (
@@ -48,10 +48,7 @@ export function Team() {
               </div>
 
               <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
-                {trainer.bio}{" "}
-                <strong className="font-semibold text-gray-800">
-                  MENS PHYSIQUE GOLD ICN 2025
-                </strong>
+                {trainer.bio}
               </p>
 
               <div className="mb-8">
@@ -77,7 +74,7 @@ export function Team() {
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-guru-primary to-guru-secondary text-white px-8 py-4 rounded-lg hover:from-guru-secondary hover:to-guru-primary transition-all font-oswald font-semibold text-lg group"
               >
                 <Instagram className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                Follow Syed Sanower
+                Follow @gurusthetics
               </a>
             </div>
           </div>
