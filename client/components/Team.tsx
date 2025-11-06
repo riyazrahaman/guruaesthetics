@@ -5,7 +5,7 @@ export function Team() {
     name: "GURU",
     role: "Founder & Master Trainer",
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F366dffc22aa74658b3ec0d3a7655c090%2F473e5d205e104e2589bdc4d52fcebd9c?format=webp&width=800",
     experience: "10+ Years",
     specialty: "Body Transformation & Aesthetics",
     certifications: [
