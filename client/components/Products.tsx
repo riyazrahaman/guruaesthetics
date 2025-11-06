@@ -15,17 +15,17 @@ export function Products() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {/* FIT ELITE */}
+          {/* GURU ELITE */}
           <div className="bg-gradient-to-br from-gray-900 to-black text-white p-8 rounded-xl relative overflow-hidden">
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
-                  FIT ELITE
+                  GURU ELITE
                 </span>
               </div>
             </div>
             <div className="mb-6">
-              <h3 className="font-oswald text-3xl font-bold mb-2">FIT ELITE</h3>
+              <h3 className="font-oswald text-3xl font-bold mb-2">GURU ELITE</h3>
               <p className="font-poppins text-lg text-gray-300">
                 Premium transformation program
               </p>
@@ -59,7 +59,7 @@ export function Products() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I'm interested in the FIT ELITE program. Can you provide more details?",
+                  "Hi! I'm interested in the GURU ELITE program. Can you provide more details?",
                 )
               }
               className="w-full bg-guru-primary hover:bg-guru-secondary text-white font-oswald font-semibold py-3"
@@ -68,17 +68,17 @@ export function Products() {
             </Button>
           </div>
 
-          {/* FIT LIFE */}
+          {/* GURU LIFE */}
           <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden">
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
-                  FIT LIFE
+                  GURU LIFE
                 </span>
               </div>
             </div>
             <div className="mb-6">
-              <h3 className="font-oswald text-3xl font-bold mb-2">FIT LIFE</h3>
+              <h3 className="font-oswald text-3xl font-bold mb-2">GURU LIFE</h3>
               <p className="font-poppins text-lg text-white/90">
                 Essential fitness program
               </p>
@@ -110,7 +110,7 @@ export function Products() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I'm interested in the FIT LIFE program. Can you provide more details?",
+                  "Hi! I'm interested in the GURU LIFE program. Can you provide more details?",
                 )
               }
               className="w-full bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold py-3"
