@@ -13,7 +13,7 @@ export function ConsultantCTA() {
             Get personalized guidance from our certified fitness experts. Book a
             free consultation and start your transformation journey today.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button
               onClick={() =>
                 openWhatsApp(
@@ -23,17 +23,6 @@ export function ConsultantCTA() {
               className="bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold px-8 py-4 text-lg"
             >
               BOOK FREE CONSULTATION
-            </Button>
-            <Button
-              onClick={() =>
-                openWhatsApp(
-                  "Hi! I saw your number and want to know more about GURUAESTHETICS services.",
-                )
-              }
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-guru-primary font-oswald font-semibold px-8 py-4 text-lg"
-            >
-              CALL NOW: +91 9618772020
             </Button>
           </div>
         </div>
