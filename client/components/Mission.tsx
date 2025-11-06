@@ -13,7 +13,7 @@ export function Mission() {
               here!
             </h2>
             <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
-              At Syed Sanower, we believe every body has the potential for
+              At GURUAESTHETICS, we believe every body has the potential for
               transformation. Our expert trainers, nutritionists, and aesthetics
               specialists work with you to create a personalized fitness and
               wellness journey that fits your lifestyle and goals.
@@ -41,7 +41,7 @@ export function Mission() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to start my fitness journey with Syed Sanower.",
+                  "Hi! I want to start my fitness journey with GURUAESTHETICS.",
                 )
               }
               className="bg-gradient-to-r from-guru-primary to-guru-secondary hover:from-guru-secondary hover:to-guru-primary text-white font-oswald font-semibold px-8 py-3"
