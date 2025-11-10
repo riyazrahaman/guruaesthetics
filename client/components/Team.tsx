@@ -2,18 +2,29 @@ import { Instagram } from "lucide-react";
 
 export function Team() {
   const trainer = {
-    name: "GURU",
+    name: "GURU (aka Gurusthetics)",
     role: "Founder & Master Trainer",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F366dffc22aa74658b3ec0d3a7655c090%2F473e5d205e104e2589bdc4d52fcebd9c?format=webp&width=800",
-    experience: "10+ Years",
-    specialty: "Body Transformation & Aesthetics",
+    experience: "10,000+ Hours",
+    specialty: "Body Transformation & Personal Fitness Mentoring",
     certifications: [
-      "Master Trainer",
-      "Nutrition Expert",
-      "Aesthetics Specialist",
+      "Certified Personal Trainer",
+      "Fitness Mentor",
+      "Powerlifter",
+      "State-Level Bodybuilding Competitor",
     ],
-    bio: "The mastermind behind GURUAESTHETICS with over a decade of experience in transforming lives through fitness and aesthetics. Dedicated to helping you achieve your dream physique.",
+    bio: "Transform your body, mind, and confidence with Guru (aka Gurusthetics)—a certified personal trainer, fitness mentor, and powerlifter. Whether you're training at home or in a gym, I'll help you unlock your full potential and become unstoppable.\n\nFitness isn't about fancy equipment or expensive supplements—it's about determination, mindset, and consistency. I started with zero gym access and just six pieces of equipment in college. Through relentless research, discipline, and sheer grit, I built a strong, competition-ready physique and helped countless others do the same. Now, I'm here to help YOU transform.",
+    highlights: [
+      "Certified Personal Trainer & Fitness Mentor",
+      "10,000+ Hours of Training Experience",
+      "Proven No-Supplement, No-Excuse Transformation",
+      "Expertise in Home & Gym-Based Workouts",
+      "State-Level Bodybuilding Competitor",
+      "Passionate About Helping You Achieve Your Best Shape",
+      "Science-Backed Workout & Nutrition Guidance",
+      "Personalized Fitness Plans for Every Goal",
+    ],
     instagram:
       "https://www.instagram.com/gurusthetics?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   };
@@ -47,24 +58,48 @@ export function Team() {
                 </p>
               </div>
 
-              <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
+              <p className="font-poppins text-base text-gray-600 mb-8 leading-relaxed whitespace-pre-wrap">
                 {trainer.bio}
               </p>
 
               <div className="mb-8">
-                <div className="font-poppins text-lg text-gray-700 mb-4">
-                  <strong>Specialty:</strong> {trainer.specialty}
+                <div className="font-poppins font-semibold text-gray-800 mb-4 text-lg">
+                  Key Qualifications:
                 </div>
-                <div className="flex flex-wrap gap-3">
+                <div className="space-y-2 mb-6">
                   {trainer.certifications.map((cert, idx) => (
-                    <span
+                    <div
                       key={idx}
-                      className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg text-sm font-oswald font-semibold border border-gray-200"
+                      className="flex items-center gap-2 text-gray-700 font-poppins"
                     >
+                      <span className="w-2 h-2 bg-guru-primary rounded-full"></span>
                       {cert}
-                    </span>
+                    </div>
                   ))}
                 </div>
+              </div>
+
+              <div className="mb-8 p-6 bg-gray-50 rounded-lg border border-gray-200">
+                <div className="font-poppins font-semibold text-gray-800 mb-4">
+                  Expertise & Services:
+                </div>
+                <div className="grid grid-cols-1 gap-2">
+                  {trainer.highlights.map((highlight, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-start gap-2 text-gray-700 font-poppins text-sm"
+                    >
+                      <span className="w-1.5 h-1.5 bg-guru-primary rounded-full mt-1.5 flex-shrink-0"></span>
+                      {highlight}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="text-center mb-8 p-4 bg-guru-primary bg-opacity-10 rounded-lg border border-guru-primary border-opacity-20">
+                <p className="font-oswald text-lg font-bold text-guru-primary">
+                  🚀 NO EXCUSES. NO LIMITS. JUST RESULTS. 🚀
+                </p>
               </div>
 
               <a
