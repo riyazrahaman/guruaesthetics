@@ -61,7 +61,8 @@ const handler: Handler = async (event) => {
         statusCode: 500,
         body: JSON.stringify({
           error: "API key not configured",
-          reply: "Sorry, the chatbot is not properly configured. Please contact us directly at +91 9618772020.",
+          reply:
+            "Sorry, the chatbot is not properly configured. Please contact us directly at +91 9618772020.",
         }),
       };
     }
@@ -96,7 +97,8 @@ const handler: Handler = async (event) => {
         statusCode: 500,
         body: JSON.stringify({
           error: "OpenAI API error",
-          reply: "I'm having trouble processing your request. Please try again or contact us at +91 9618772020.",
+          reply:
+            "I'm having trouble processing your request. Please try again or contact us at +91 9618772020.",
         }),
       };
     }
@@ -116,7 +118,8 @@ const handler: Handler = async (event) => {
       statusCode: 500,
       body: JSON.stringify({
         error: "Internal server error",
-        reply: "Sorry, something went wrong. Please contact us directly at +91 9618772020.",
+        reply:
+          "Sorry, something went wrong. Please contact us directly at +91 9618772020.",
       }),
     };
   }

@@ -48,7 +48,8 @@ export const handleChatbot: RequestHandler = async (req, res) => {
     if (!apiKey) {
       console.error("OPENAI_API_KEY is not set");
       return res.status(500).json({
-        reply: "Sorry, the chatbot is not properly configured. Please contact us directly at +91 9618772020.",
+        reply:
+          "Sorry, the chatbot is not properly configured. Please contact us directly at +91 9618772020.",
       });
     }
 
@@ -79,7 +80,8 @@ export const handleChatbot: RequestHandler = async (req, res) => {
       const errorData = await response.json();
       console.error("OpenAI API error:", errorData);
       return res.status(500).json({
-        reply: "I'm having trouble processing your request. Please try again or contact us at +91 9618772020.",
+        reply:
+          "I'm having trouble processing your request. Please try again or contact us at +91 9618772020.",
       });
     }
 
@@ -92,7 +94,8 @@ export const handleChatbot: RequestHandler = async (req, res) => {
   } catch (error) {
     console.error("Chatbot error:", error);
     return res.status(500).json({
-      reply: "Sorry, something went wrong. Please contact us directly at +91 9618772020.",
+      reply:
+        "Sorry, something went wrong. Please contact us directly at +91 9618772020.",
     });
   }
 };
