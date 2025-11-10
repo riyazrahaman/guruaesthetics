@@ -16,7 +16,7 @@ export function Products() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {/* GURU ELITE */}
-          <div className="bg-gradient-to-br from-gray-900 to-black text-white p-8 rounded-xl relative overflow-hidden">
+          <div className="bg-gradient-to-br from-gray-900 to-black text-white p-8 rounded-xl relative overflow-hidden flex flex-col">
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
@@ -32,7 +32,7 @@ export function Products() {
                 Premium transformation program
               </p>
             </div>
-            <div className="space-y-3 mb-8">
+            <div className="space-y-3 mb-8 flex-grow">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-guru-primary rounded-full"></div>
                 <span className="font-poppins">Personal trainer</span>
@@ -50,7 +50,7 @@ export function Products() {
                 <span className="font-poppins">Premium supplements</span>
               </div>
             </div>
-            <div className="mb-6">
+            <div className="mb-6 mt-auto">
               <div className="font-oswald text-4xl font-bold text-guru-primary">
                 ₹8,000
               </div>
@@ -71,7 +71,7 @@ export function Products() {
           </div>
 
           {/* GURU LIFE */}
-          <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden">
+          <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden flex flex-col">
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
@@ -85,7 +85,7 @@ export function Products() {
                 Essential fitness program
               </p>
             </div>
-            <div className="space-y-3 mb-8">
+            <div className="space-y-3 mb-8 flex-grow">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span className="font-poppins">Group training</span>
@@ -103,7 +103,7 @@ export function Products() {
                 <span className="font-poppins">Online support</span>
               </div>
             </div>
-            <div className="mb-6">
+            <div className="mb-6 mt-auto">
               <div className="font-oswald text-4xl font-bold">₹12,000</div>
               <div className="font-poppins text-sm text-white/70">
                 per 6 months
@@ -122,7 +122,7 @@ export function Products() {
           </div>
 
           {/* GURU PREMIUM */}
-          <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden">
+          <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden flex flex-col">
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
@@ -136,7 +136,7 @@ export function Products() {
                 Ultimate transformation program
               </p>
             </div>
-            <div className="space-y-3 mb-8">
+            <div className="space-y-3 mb-8 flex-grow">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span className="font-poppins">One-on-one personal training</span>
@@ -158,7 +158,7 @@ export function Products() {
                 <span className="font-poppins">24/7 priority support</span>
               </div>
             </div>
-            <div className="mb-6">
+            <div className="mb-6 mt-auto">
               <div className="font-oswald text-4xl font-bold">₹18,000</div>
               <div className="font-poppins text-sm text-white/70">
                 per year
