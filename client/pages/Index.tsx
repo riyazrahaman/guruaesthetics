@@ -18,20 +18,32 @@ export default function Index() {
   return (
     <div className="min-h-screen">
       <Header />
-      <Hero />
-      <About />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about">
+        <About />
+      </div>
       <Mission />
-      <Services />
-      <Products />
+      <div id="services">
+        <Services />
+      </div>
+      <div id="products">
+        <Products />
+      </div>
       <Stats />
       <ConsultantCTA />
-      <Team />
+      <div id="team">
+        <Team />
+      </div>
       <Testimonials />
       <Transformations />
       <WorkoutGallery />
       <ClientStories />
       <FAQ />
-      <Footer />
+      <div id="contact">
+        <Footer />
+      </div>
     </div>
   );
 }
