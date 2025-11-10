@@ -52,10 +52,10 @@ export function Products() {
             </div>
             <div className="mb-6">
               <div className="font-oswald text-4xl font-bold text-guru-primary">
-                ₹12,999
+                ₹8,000
               </div>
               <div className="font-poppins text-sm text-gray-400">
-                per month
+                per 3 months
               </div>
             </div>
             <Button
@@ -104,9 +104,9 @@ export function Products() {
               </div>
             </div>
             <div className="mb-6">
-              <div className="font-oswald text-4xl font-bold">₹4,999</div>
+              <div className="font-oswald text-4xl font-bold">₹12,000</div>
               <div className="font-poppins text-sm text-white/70">
-                per month
+                per 6 months
               </div>
             </div>
             <Button
@@ -118,6 +118,61 @@ export function Products() {
               className="w-full bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold py-3"
             >
               CHOOSE LIFE
+            </Button>
+          </div>
+
+          {/* GURU PREMIUM */}
+          <div className="bg-gradient-to-br from-yellow-600 to-orange-500 text-white p-8 rounded-xl relative overflow-hidden md:col-span-2 lg:col-span-1">
+            <div className="absolute top-4 right-4">
+              <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
+                <span className="font-oswald text-lg font-bold text-white">
+                  GURU PREMIUM
+                </span>
+              </div>
+            </div>
+            <div className="mb-6">
+              <h3 className="font-oswald text-3xl font-bold mb-2">GURU PREMIUM</h3>
+              <p className="font-poppins text-lg text-white/90">
+                Ultimate transformation program
+              </p>
+            </div>
+            <div className="space-y-3 mb-8">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+                <span className="font-poppins">One-on-one personal training</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+                <span className="font-poppins">Advanced meal plans</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+                <span className="font-poppins">Bi-weekly check-ins</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+                <span className="font-poppins">Premium supplements included</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+                <span className="font-poppins">24/7 priority support</span>
+              </div>
+            </div>
+            <div className="mb-6">
+              <div className="font-oswald text-4xl font-bold">₹18,000</div>
+              <div className="font-poppins text-sm text-white/70">
+                per year
+              </div>
+            </div>
+            <Button
+              onClick={() =>
+                openWhatsApp(
+                  "Hi! I'm interested in the GURU PREMIUM program. Can you provide more details?",
+                )
+              }
+              className="w-full bg-white text-orange-600 hover:bg-gray-100 font-oswald font-semibold py-3"
+            >
+              CHOOSE PREMIUM
             </Button>
           </div>
         </div>
