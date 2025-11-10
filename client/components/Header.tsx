@@ -45,37 +45,37 @@ export function Header() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             <a
-              href="#"
+              href="#home"
               className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               HOME
             </a>
             <a
-              href="#"
+              href="#about"
               className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               ABOUT
             </a>
             <a
-              href="#"
+              href="#services"
               className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               SERVICES
             </a>
             <a
-              href="#"
+              href="#products"
               className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               PRODUCTS
             </a>
             <a
-              href="#"
+              href="#team"
               className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
-              BLOG
+              TEAM
             </a>
             <a
-              href="#"
+              href="#contact"
               className="font-oswald font-medium text-gray-800 hover:text-guru-primary transition-colors"
             >
               CONTACT
