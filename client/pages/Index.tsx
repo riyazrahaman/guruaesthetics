@@ -13,6 +13,7 @@ import { WorkoutGallery } from "../components/WorkoutGallery";
 import { ClientStories } from "../components/ClientStories";
 import { FAQ } from "../components/FAQ";
 import { Footer } from "../components/Footer";
+import { Chatbot } from "../components/Chatbot";
 
 export default function Index() {
   return (
@@ -44,6 +45,7 @@ export default function Index() {
       <div id="contact">
         <Footer />
       </div>
+      <Chatbot />
     </div>
   );
 }
