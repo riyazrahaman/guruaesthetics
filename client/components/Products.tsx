@@ -14,7 +14,7 @@ export function Products() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {/* GURU ELITE */}
           <div className="bg-gradient-to-br from-gray-900 to-black text-white p-8 rounded-xl relative overflow-hidden">
             <div className="absolute top-4 right-4">
@@ -122,7 +122,7 @@ export function Products() {
           </div>
 
           {/* GURU PREMIUM */}
-          <div className="bg-gradient-to-br from-yellow-600 to-orange-500 text-white p-8 rounded-xl relative overflow-hidden md:col-span-2 lg:col-span-1">
+          <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden">
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
@@ -170,7 +170,7 @@ export function Products() {
                   "Hi! I'm interested in the GURU PREMIUM program. Can you provide more details?",
                 )
               }
-              className="w-full bg-white text-orange-600 hover:bg-gray-100 font-oswald font-semibold py-3"
+              className="w-full bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold py-3"
             >
               CHOOSE PREMIUM
             </Button>
