@@ -67,14 +67,14 @@ export function Chatbot() {
   return (
     <>
       {/* Chat Widget Button */}
-      <div className="fixed bottom-6 right-6 z-40">
+      <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40">
         {!isOpen && (
           <button
             onClick={() => setIsOpen(true)}
-            className="w-14 h-14 bg-gradient-to-r from-guru-primary to-guru-secondary text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center"
+            className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-r from-guru-primary to-guru-secondary text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center"
             aria-label="Open chat"
           >
-            <MessageCircle size={24} />
+            <MessageCircle size={20} className="sm:w-6 sm:h-6" />
           </button>
         )}
 
