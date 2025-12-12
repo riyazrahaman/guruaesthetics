@@ -3,24 +3,24 @@ import { Star } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Priya Sharma",
+      name: "Sidharth",
       image:
         "https://images.unsplash.com/photo-1494790108755-2616b612b734?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      text: "GURUAESTHETICS transformed my life completely. Lost 25kg in 6 months and gained confidence I never had before.",
+      text: "Worth the Investment!! Guru have helped me lose 12 Kilos of Weight in 90 Days!! I have a Smile on my Face each Time I see my Physique in the Mirror!! Hatsoff to Guru!.",
       rating: 5,
     },
     {
-      name: "Rahul Verma",
+      name: "Ravi",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      text: "Best investment I made for my health. The trainers are amazing and the nutrition plan actually works!",
+      text: "Guru corrected my form, fixed my diet, and kept me accountable daily by just making me do things in just 21 days.Best investment I’ve made—worth every rupee. His Program was the Game-Changer for me, Now I have Joined again for Powerlifting with him and I'm again very very satisfied as well.",
       rating: 5,
     },
     {
-      name: "Sneha Patel",
+      name: "Ganapathi",
       image:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      text: "From being overweight to running marathons - GURUAESTHETICS made it possible. Forever grateful!",
+      text: "I didn’t join for abs, I joined for discipline. Guru’s guidance changed my routine, sleep, and confidence. I lost weight without feeling restricted. The price felt nothing compared to the results.",
       rating: 5,
     },
   ];
