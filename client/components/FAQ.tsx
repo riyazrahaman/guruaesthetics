@@ -18,22 +18,22 @@ export function FAQ() {
     {
       question: "What if I'm a complete beginner?",
       answer:
-        "Perfect! I love working with beginners. My training will start you at the appropriate level and gradually progress your workouts as you build strength and confidence.",
+        "Perfect! I love working with beginners. I will start you at the appropriate level and gradually progress your workouts as you build strength and confidence.",
     },
     {
       question: "Can I train from home?",
       answer:
-        "Yes! I offer online coaching programs that include home workout plans, virtual check-ins, and full support through our mobile app.",
+        "Yes! I offer online coaching programs that include home workout plans, virtual check-ins, and full support through WhatsApp.",
     },
     {
       question: "What's included in the nutrition coaching?",
       answer:
-        "My nutrition coaching includes personalized meal plans, macro tracking guidance, supplement recommendations, grocery lists, and ongoing support from certified nutritionists.",
+        "My nutrition coaching includes personalized meal plans, macro tracking guidance, supplement recommendations if required.",
     },
     {
       question: "How often should I work out?",
       answer:
-        "For optimal results, I recommend 3-5 training sessions per week, depending on your goals and experience level. My training will be designed in a manner that works for you.",
+        "For optimal results, I recommend 4-5 training sessions per week, depending on your goals and experience level. I will schedule the trainings based on your availability throughout the week.",
     },
     {
       question: "What if I have injuries or limitations?",
@@ -43,7 +43,7 @@ export function FAQ() {
     {
       question: "Can I cancel or pause my membership?",
       answer:
-        "Yes, I offer flexible membership options. You can pause your membership for up to 2 months per year or cancel with 30 days notice.",
+        "Incase of an Emergency or Unable to Continue for a While ? Yes, I offer flexible membership options. You can pause your membership for up to 2 months per year.",
     },
   ];
 
