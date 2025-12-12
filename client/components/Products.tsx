@@ -35,11 +35,11 @@ export function Products() {
             <div className="space-y-3 mb-8 flex-grow">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-guru-primary rounded-full"></div>
-                <span className="font-poppins">Personal trainer</span>
+                <span className="font-poppins">Access to fitness program for 90 days.</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-guru-primary rounded-full"></div>
-                <span className="font-poppins">Custom meal plans</span>
+                <span className="font-poppins">Diet and Workout Chart</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-guru-primary rounded-full"></div>
@@ -47,7 +47,11 @@ export function Products() {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-guru-primary rounded-full"></div>
-                <span className="font-poppins">Premium supplements</span>
+                <span className="font-poppins">Message on given hours</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-guru-primary rounded-full"></div>
+                <span className="font-poppins">Weekly once one-on-one call</span>
               </div>
             </div>
             <div className="mb-6 mt-auto">
@@ -88,23 +92,27 @@ export function Products() {
             <div className="space-y-3 mb-8 flex-grow">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">Group training</span>
+                <span className="font-poppins">Access to fitness program for 180 days</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">Basic nutrition guide</span>
+                <span className="font-poppins">Diet & workout chart</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">Monthly check-ins</span>
+                <span className="font-poppins">Weekly check-ins</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">Online support</span>
+                <span className="font-poppins">Message 24/7</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+                <span className="font-poppins">Weekly once one-on-one call</span>
               </div>
             </div>
             <div className="mb-6 mt-auto">
-              <div className="font-oswald text-4xl font-bold">₹12,000</div>
+              <div className="font-oswald text-4xl font-bold">₹14,000</div>
               <div className="font-poppins text-sm text-white/70">
                 per 6 months
               </div>
@@ -142,26 +150,26 @@ export function Products() {
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span className="font-poppins">
-                  One-on-one personal training
+                  Access to fitness program for 365 days.
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">Advanced meal plans</span>
+                <span className="font-poppins">Diet & Workout Chart</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">Bi-weekly check-ins</span>
+                <span className="font-poppins">Weekly check-ins</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
                 <span className="font-poppins">
-                  Premium supplements included
+                  Message and Call 24/7
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">24/7 priority support</span>
+                <span className="font-poppins">More priority support with Guru</span>
               </div>
             </div>
             <div className="mb-6 mt-auto">
