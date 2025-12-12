@@ -13,37 +13,37 @@ export function FAQ() {
     {
       question: "Do I need to follow a strict diet?",
       answer:
-        "We don't believe in restrictive diets. Our nutrition coaches create flexible meal plans that fit your lifestyle while ensuring you reach your goals sustainably.",
+        "I don't believe in restrictive diets. My nutrition coaches create flexible meal plans that fit your lifestyle while ensuring you reach your goals sustainably.",
     },
     {
       question: "What if I'm a complete beginner?",
       answer:
-        "Perfect! We love working with beginners. Our trainers will start you at the appropriate level and gradually progress your workouts as you build strength and confidence.",
+        "Perfect! I love working with beginners. My training will start you at the appropriate level and gradually progress your workouts as you build strength and confidence.",
     },
     {
       question: "Can I train from home?",
       answer:
-        "Yes! We offer online coaching programs that include home workout plans, virtual check-ins, and full support through our mobile app.",
+        "Yes! I offer online coaching programs that include home workout plans, virtual check-ins, and full support through our mobile app.",
     },
     {
       question: "What's included in the nutrition coaching?",
       answer:
-        "Our nutrition coaching includes personalized meal plans, macro tracking guidance, supplement recommendations, grocery lists, and ongoing support from certified nutritionists.",
+        "My nutrition coaching includes personalized meal plans, macro tracking guidance, supplement recommendations, grocery lists, and ongoing support from certified nutritionists.",
     },
     {
       question: "How often should I work out?",
       answer:
-        "For optimal results, we recommend 3-5 training sessions per week, depending on your goals and experience level. Our trainers will design a schedule that works for you.",
+        "For optimal results, I recommend 3-5 training sessions per week, depending on your goals and experience level. My training will be designed in a manner that works for you.",
     },
     {
       question: "What if I have injuries or limitations?",
       answer:
-        "Our trainers are experienced in working with various physical limitations. We'll modify exercises and create a safe, effective program that works around any injuries.",
+        "I am experienced in working with various physical limitations. I'll modify exercises and create a safe, effective program that works around any injuries.",
     },
     {
       question: "Can I cancel or pause my membership?",
       answer:
-        "Yes, we offer flexible membership options. You can pause your membership for up to 2 months per year or cancel with 30 days notice.",
+        "Yes, I offer flexible membership options. You can pause your membership for up to 2 months per year or cancel with 30 days notice.",
     },
   ];
 
