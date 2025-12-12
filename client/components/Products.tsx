@@ -131,7 +131,9 @@ export function Products() {
               </div>
             </div>
             <div className="mb-6">
-              <h3 className="font-oswald text-3xl font-bold mb-2">GURU PREMIUM</h3>
+              <h3 className="font-oswald text-3xl font-bold mb-2">
+                GURU PREMIUM
+              </h3>
               <p className="font-poppins text-lg text-white/90">
                 Ultimate transformation program
               </p>
@@ -139,7 +141,9 @@ export function Products() {
             <div className="space-y-3 mb-8 flex-grow">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">One-on-one personal training</span>
+                <span className="font-poppins">
+                  One-on-one personal training
+                </span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
@@ -151,7 +155,9 @@ export function Products() {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="font-poppins">Premium supplements included</span>
+                <span className="font-poppins">
+                  Premium supplements included
+                </span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
@@ -160,9 +166,7 @@ export function Products() {
             </div>
             <div className="mb-6 mt-auto">
               <div className="font-oswald text-4xl font-bold">₹18,000</div>
-              <div className="font-poppins text-sm text-white/70">
-                per year
-              </div>
+              <div className="font-poppins text-sm text-white/70">per year</div>
             </div>
             <Button
               onClick={() =>
