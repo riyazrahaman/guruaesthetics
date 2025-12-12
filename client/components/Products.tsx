@@ -122,7 +122,7 @@ export function Products() {
           </div>
 
           {/* GURU PREMIUM */}
-          <div className="bg-gradient-to-br from-guru-primary to-guru-secondary text-white p-8 rounded-xl relative overflow-hidden flex flex-col">
+          <div className="bg-gradient-to-br from-purple-600 to-indigo-700 text-white p-8 rounded-xl relative overflow-hidden flex flex-col">
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
