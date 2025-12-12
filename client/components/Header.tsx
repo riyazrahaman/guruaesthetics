@@ -11,11 +11,11 @@ export function Header() {
           <div className="flex items-center gap-4 mb-2 sm:mb-0">
             <div className="flex items-center gap-1">
               <Phone size={14} />
-              <span>+91 9618772020</span>
+              <span>+91 8754712377</span>
             </div>
             <div className="flex items-center gap-1">
               <Mail size={14} />
-              <span>guruaesthetics@gmail.com</span>
+              <span>info.gurusthetics@gmail.com</span>
             </div>
           </div>
           <div className="flex items-center gap-1">
@@ -37,7 +37,7 @@ export function Header() {
                 </span>
               </div>
               <span className="font-oswald text-2xl font-bold text-gray-800">
-                GURUAESTHETICS
+                GURUSTHETICS
               </span>
             </div>
           </div>
