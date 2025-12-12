@@ -83,7 +83,7 @@ export function About() {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F366dffc22aa74658b3ec0d3a7655c090%2F6832572df6ac4e669c6b21525eb3e1f7?format=webp&width=800"
               alt="GURUAESTHETICS Trainer"
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="w-full h-auto object-cover rounded-lg shadow-lg max-h-96"
             />
             <div className="absolute -bottom-8 -left-8 bg-gradient-to-r from-guru-primary to-guru-secondary text-white p-6 rounded-lg shadow-xl">
               <div className="font-oswald text-3xl font-bold">YOUR</div>
