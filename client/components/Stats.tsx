@@ -4,19 +4,19 @@ export function Stats() {
   const stats = [
     {
       icon: Users,
-      number: "500+",
+      number: "200+",
       label: "Lives Transformed",
       description: "Successful body transformations",
     },
     {
       icon: TrendingUp,
-      number: "15000+",
+      number: "1000+",
       label: "Kg Lost",
       description: "Total weight lost by our clients",
     },
     {
       icon: Trophy,
-      number: "50+",
+      number: "5+",
       label: "Competition Wins",
       description: "Clients who won fitness competitions",
     },
@@ -37,7 +37,7 @@ export function Stats() {
           </h2>
           <p className="font-poppins text-xl text-white/90 max-w-2xl mx-auto">
             These numbers represent real people who transformed their lives with
-            RAW Coaching
+            Guru's Coaching
           </p>
         </div>
 
