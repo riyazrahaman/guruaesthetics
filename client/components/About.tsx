@@ -7,7 +7,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="font-oswald text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              ABOUT <span className="text-guru-primary">GURUAESTHETICS</span>
+              ABOUT <span className="text-guru-primary">GURUSTHETICS</span>
             </h2>
             <p className="font-poppins text-lg text-gray-600 mb-6 leading-relaxed">
               Founded with a passion for transforming lives, GURUAESTHETICS has
