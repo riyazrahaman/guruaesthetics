@@ -13,7 +13,7 @@ export function Mission() {
               here!
             </h2>
             <p className="font-poppins text-lg text-gray-600 mb-8 leading-relaxed">
-              At GURUAESTHETICS, we believe every body has the potential for
+              At GURUSTHETICS, we believe every body has the potential for
               transformation. Our expert trainers, nutritionists, and aesthetics
               specialists work with you to create a personalized fitness and
               wellness journey that fits your lifestyle and goals.
@@ -58,7 +58,7 @@ export function Mission() {
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-xl">
               <div className="text-center">
                 <div className="font-oswald text-2xl font-bold text-guru-primary">
-                  500+
+                  200+
                 </div>
                 <div className="font-poppins text-sm text-gray-600">
                   Success Stories
