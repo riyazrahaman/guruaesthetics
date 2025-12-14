@@ -1,4 +1,4 @@
-import { Play, Clock, Target } from "lucide-react";
+/*import { Play, Clock, Target } from "lucide-react";
 import { openWhatsApp } from "../utils/whatsapp";
 
 export function WorkoutGallery() {
@@ -157,4 +157,4 @@ export function WorkoutGallery() {
       </div>
     </section>
   );
-}
+}*/
