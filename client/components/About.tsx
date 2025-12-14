@@ -30,7 +30,7 @@ export function About() {
                 </div>
                 <div>
                   <div className="font-oswald text-2xl font-bold text-gray-800">
-                    500+
+                    200+
                   </div>
                   <div className="font-poppins text-sm text-gray-600">
                     Lives Transformed
@@ -59,7 +59,7 @@ export function About() {
                     100%
                   </div>
                   <div className="font-poppins text-sm text-gray-600">
-                    Success Rate
+                    Noticeable changes
                   </div>
                 </div>
               </div>
