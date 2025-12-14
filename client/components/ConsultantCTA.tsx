@@ -10,7 +10,7 @@ export function ConsultantCTA() {
             Need a <span className="text-black">fitness Consultant?</span>
           </h2>
           <p className="font-poppins text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Get personalized guidance from our certified fitness experts. Book a
+            Get personalized guidance from Gurusthetics. Book a
             free consultation and start your transformation journey today.
           </p>
           <div className="flex justify-center">
