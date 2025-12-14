@@ -20,13 +20,13 @@ export function Products() {
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
-                  GURU ELITE
+                  Foundation Program
                 </span>
               </div>
             </div>
             <div className="mb-6">
               <h3 className="font-oswald text-3xl font-bold mb-2">
-                GURU ELITE
+                Foundation Program
               </h3>
               <p className="font-poppins text-lg text-gray-300">
                 Premium transformation program
@@ -70,7 +70,7 @@ export function Products() {
               }
               className="w-full bg-guru-primary hover:bg-guru-secondary text-white font-oswald font-semibold py-3"
             >
-              CHOOSE ELITE
+              CHOOSE FOUNDATION PROGRAM
             </Button>
           </div>
 
@@ -79,12 +79,12 @@ export function Products() {
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
-                  GURU LIFE
+                  POWER PROGRAM
                 </span>
               </div>
             </div>
             <div className="mb-6">
-              <h3 className="font-oswald text-3xl font-bold mb-2">GURU LIFE</h3>
+              <h3 className="font-oswald text-3xl font-bold mb-2">POWER PROGRAM</h3>
               <p className="font-poppins text-lg text-white/90">
                 Essential fitness program
               </p>
@@ -125,7 +125,7 @@ export function Products() {
               }
               className="w-full bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold py-3"
             >
-              CHOOSE LIFE
+              CHOOSE POWER PROGRAM
             </Button>
           </div>
 
@@ -134,13 +134,13 @@ export function Products() {
             <div className="absolute top-4 right-4">
               <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                 <span className="font-oswald text-lg font-bold text-white">
-                  GURU PREMIUM
+                  LEGACY PROGRAM
                 </span>
               </div>
             </div>
             <div className="mb-6">
               <h3 className="font-oswald text-3xl font-bold mb-2">
-                GURU PREMIUM
+                LEGACY PROGRAM
               </h3>
               <p className="font-poppins text-lg text-white/90">
                 Ultimate transformation program
@@ -173,7 +173,7 @@ export function Products() {
               </div>
             </div>
             <div className="mb-6 mt-auto">
-              <div className="font-oswald text-4xl font-bold">₹18,000</div>
+              <div className="font-oswald text-4xl font-bold">₹20,000</div>
               <div className="font-poppins text-sm text-white/70">per year</div>
             </div>
             <Button
@@ -184,7 +184,7 @@ export function Products() {
               }
               className="w-full bg-white text-guru-primary hover:bg-gray-100 font-oswald font-semibold py-3"
             >
-              CHOOSE PREMIUM
+              CHOOSE LEGACY PROGRAM
             </Button>
           </div>
         </div>
