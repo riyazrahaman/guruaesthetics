@@ -92,7 +92,7 @@ export function Hero() {
                 100%
               </div>
               <div className="font-poppins text-sm text-gray-300">
-                Noticeable changes in 1 month
+                Noticeable changes
               </div>
             </div>
           </div>
