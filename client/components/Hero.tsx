@@ -34,7 +34,7 @@ export function Hero() {
               </span>
             </div>
             <span className="font-oswald text-3xl lg:text-4xl font-bold">
-              COACHING
+              GURU
             </span>
           </div>
 
@@ -73,7 +73,7 @@ export function Hero() {
           <div className="grid grid-cols-3 gap-8 mt-12 max-w-md">
             <div className="text-center">
               <div className="font-oswald text-3xl lg:text-4xl font-bold text-guru-primary">
-                500+
+                200+
               </div>
               <div className="font-poppins text-sm text-gray-300">
                 Transformations
@@ -92,7 +92,7 @@ export function Hero() {
                 100%
               </div>
               <div className="font-poppins text-sm text-gray-300">
-                Success Rate
+                Noticeable changes in 1 month
               </div>
             </div>
           </div>
