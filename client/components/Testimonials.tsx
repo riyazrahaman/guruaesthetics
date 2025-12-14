@@ -66,7 +66,7 @@ export function Testimonials() {
                     {testimonial.name}
                   </div>
                   <div className="font-poppins text-sm text-gray-500">
-                    GURUAESTHETICS Client
+                    GURUSTHETICS Client
                   </div>
                 </div>
               </div>
