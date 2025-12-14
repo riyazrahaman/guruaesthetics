@@ -54,7 +54,7 @@ export function Services() {
     },
     {
       icon: Trophy,
-      title: "Body Building",
+      title: "Calistheics",
       description:
         "Specialized training for bodybuilding and fitness competitions",
       features: [
@@ -66,7 +66,7 @@ export function Services() {
     },
     {
       icon: Heart,
-      title: "Men's Physique",
+      title: "Mobility",
       description:
         "Holistic approach to health including stress management and sleep optimization",
       features: [
