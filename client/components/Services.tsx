@@ -54,7 +54,7 @@ export function Services() {
     },
     {
       icon: Trophy,
-      title: "Calistheics",
+      title: "Calisthenics",
       description:
         "Specialized training for bodybuilding and fitness competitions",
       features: [
