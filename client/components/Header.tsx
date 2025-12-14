@@ -20,7 +20,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-1">
             <Truck size={14} />
-            <span>Free shipping on orders over ₹2000</span>
+            
           </div>
         </div>
       </div>
