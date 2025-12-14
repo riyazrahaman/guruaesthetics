@@ -31,7 +31,7 @@ export function Footer() {
             <Button
               onClick={() =>
                 openWhatsApp(
-                  "Hi! I want to subscribe to GURUAESTHETICS newsletter and updates.",
+                  "Hi! I want to subscribe to GURUSTHETICS newsletter and updates.",
                 )
               }
               className="bg-black hover:bg-gray-800 text-white font-oswald font-semibold px-6 py-3"
@@ -55,7 +55,7 @@ export function Footer() {
                   </span>
                 </div>
                 <span className="font-oswald text-2xl font-bold text-white">
-                  GURUAESTHETICS
+                  GURUSTHETICS
                 </span>
               </div>
               <p className="font-poppins text-gray-400 mb-6">
@@ -161,7 +161,7 @@ export function Footer() {
                   <Phone className="w-5 h-5 text-guru-primary mt-1" />
                   <div>
                     <div className="font-poppins text-white">
-                      +91 9618772020
+                      +91 8754712377
                     </div>
                     <div className="font-poppins text-gray-400 text-sm">
                       Mon-Sat 9AM-8PM
@@ -171,7 +171,7 @@ export function Footer() {
                 <div className="flex items-start gap-3">
                   <Mail className="w-5 h-5 text-guru-primary mt-1" />
                   <div className="font-poppins text-white">
-                    guruaesthetics@gmail.com
+                    info.gurusthetics@gmail.com
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -190,7 +190,7 @@ export function Footer() {
       <div className="border-t border-gray-800 py-6">
         <div className="container mx-auto px-4 text-center">
           <p className="font-poppins text-gray-400">
-            © 2024 GURUAESTHETICS. All rights reserved. | Privacy Policy |
+            © 2024 GURUSTHETICS. All rights reserved. | Privacy Policy |
             Terms of Service
           </p>
         </div>
