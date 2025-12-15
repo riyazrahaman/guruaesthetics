@@ -37,10 +37,11 @@ export default function Index() {
       <div id="team">
         <Team />
       </div>
-      <Testimonials />
+      //<Testimonials />
       <Transformations />
       <WorkoutGallery />
       <ClientStories />
+      <Testimonials />
       <FAQ />
       <div id="contact">
         <Footer />
