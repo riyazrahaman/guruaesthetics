@@ -15,7 +15,7 @@ export function ClientStories() {
       headline: "From Couch to Competition",
       client: "Ravi",
       story:
-        ""Guru corrected my form, fixed my diet, and kept me accountable daily by just making me do things in just 21 days.Best investment I’ve made—worth every rupee. His Program was the Game-Changer for me, Now I have Joined again for Powerlifting with him and I'm again very very satisfied as well."",
+        "Guru corrected my form, fixed my diet, and kept me accountable daily by just making me do things in just 21 days.Best investment I’ve made—worth every rupee. His Program was the Game-Changer for me, Now I have Joined again for Powerlifting with him and I'm again very very satisfied as well.",
       image:
         "https://imglink.io/i/a54d69a5-cc20-413c-8d82-364094ba3d05.jpeg",
       results: [
