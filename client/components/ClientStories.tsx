@@ -3,19 +3,19 @@ import { Quote } from "lucide-react";
 export function ClientStories() {
   const stories = [
     {
-      headline: "Lost 30kg in 8 Months",
-      client: "Rajesh Kumar",
+      headline: "Lost 12kg in 3 Months",
+      client: "Kavin",
       story:
-        "I was 95kg and struggling with diabetes. GURUAESTHETICS not only helped me lose weight but also completely reversed my health conditions. Now I'm fitter than I was in my 20s!",
+        "Worth the Investment!! Guru have helped me lose 12 Kilos of Weight in 90 Days!! I have a Smile on my Face each Time I see my Physique in the Mirror!! Hatsoff to Guru!",
       image:
-        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      results: ["30kg weight loss", "Reversed diabetes", "Improved energy"],
+        "https://drive.google.com/file/d/1g2aGGU0jEmLPkkQCJrD86oiKX0cD790T/view?usp=drive_link",
+      results: ["12kg weight loss", "Improved energy"],
     },
     {
       headline: "From Couch to Competition",
       client: "Priya Sharma",
       story:
-        "I never thought I'd compete in a fitness competition. GURUAESTHETICS believed in me when I didn't believe in myself. They guided me from complete beginner to competition stage!",
+        "I never thought I'd compete in a fitness competition. GURUSTHETICS believed in me when I didn't believe in myself. They guided me from complete beginner to competition stage!",
       image:
         "https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
@@ -28,7 +28,7 @@ export function ClientStories() {
       headline: "Postpartum Transformation",
       client: "Anita Singh",
       story:
-        "After having my second child, I felt lost and out of shape. GURUAESTHETICS's women's program helped me regain my confidence and achieve the best shape of my life.",
+        "After having my second child, I felt lost and out of shape. GURUSTHETICS's women's program helped me regain my confidence and achieve the best shape of my life.",
       image:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
@@ -42,7 +42,7 @@ export function ClientStories() {
   const mediaHeadlines = [
     {
       outlet: "Times of India",
-      headline: "GURUAESTHETICS: Transforming India's Fitness Landscape",
+      headline: "GURUSTHETICS: Transforming India's Fitness Landscape",
       date: "March 2024",
       image:
         "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
@@ -56,7 +56,7 @@ export function ClientStories() {
     },
     {
       outlet: "Economic Times",
-      headline: "How GURUAESTHETICS is Revolutionizing Online Fitness",
+      headline: "How GURUSTHETICS is Revolutionizing Online Fitness",
       date: "January 2024",
       image:
         "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
