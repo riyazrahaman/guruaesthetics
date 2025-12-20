@@ -8,7 +8,7 @@ export function ClientStories() {
       story:
         "Worth the Investment!! Guru have helped me lose 12 Kilos of Weight in 90 Days!! I have a Smile on my Face each Time I see my Physique in the Mirror!! Hatsoff to Guru!",
       image:
-        "https://drive.google.com/file/d/1g2aGGU0jEmLPkkQCJrD86oiKX0cD790T/view?usp=drive_link",
+        "https://imglink.io/i/5d175e3f-2be3-4043-93ff-408b696b3e97.jpeg",
       results: ["12kg weight loss", "Improved energy"],
     },
     {
@@ -30,7 +30,7 @@ export function ClientStories() {
       story:
         "I didn’t join for abs, I joined for discipline. Guru’s guidance changed my routine, sleep, and confidence. I lost weight without feeling restricted. The price felt nothing compared to the results.",
       image:
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://imglink.io/i/d11da65c-6e8a-4c3d-b406-94cdf970d75e.jpeg",
       results: [
         "Increased strength",
         "Mental wellness",
