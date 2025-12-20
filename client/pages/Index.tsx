@@ -37,9 +37,9 @@ export default function Index() {
       <div id="team">
         <Team />
       </div>
-      //<Testimonials />
+     
       <Transformations />
-      <WorkoutGallery />
+      
       <ClientStories />
       <Testimonials />
       <FAQ />
