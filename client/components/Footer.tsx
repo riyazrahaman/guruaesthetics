@@ -121,7 +121,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    GURU Elite
+                    Foundation Program
                   </a>
                 </li>
                 <li>
@@ -129,7 +129,7 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    GURU Life
+                    Power Program
                   </a>
                 </li>
                 <li>
@@ -137,17 +137,10 @@ export function Footer() {
                     href="#"
                     className="font-poppins text-gray-400 hover:text-white transition-colors"
                   >
-                    Personal Training
+                    Legacy Program
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="#"
-                    className="font-poppins text-gray-400 hover:text-white transition-colors"
-                  >
-                    Nutrition Coaching
-                  </a>
-                </li>
+               
               </ul>
             </div>
 
