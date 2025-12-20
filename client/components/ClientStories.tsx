@@ -125,7 +125,7 @@ export function ClientStories() {
               IN THE <span className="text-guru-primary">MEDIA</span>
             </h2>
             <p className="font-poppins text-lg text-gray-600 max-w-2xl mx-auto">
-              See what leading publications are saying about GURUAESTHETICS
+              Got published in one of the SOUTH INDIA'S leading newspaper!
             </p>
           </div>
 
