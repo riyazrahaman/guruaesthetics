@@ -28,7 +28,7 @@ export function ClientStories() {
       headline: "Disciplined Transformation",
       client: "Ganapathi",
       story:
-        ""I didn’t join for abs, I joined for discipline. Guru’s guidance changed my routine, sleep, and confidence. I lost weight without feeling restricted. The price felt nothing compared to the results."",
+        "I didn’t join for abs, I joined for discipline. Guru’s guidance changed my routine, sleep, and confidence. I lost weight without feeling restricted. The price felt nothing compared to the results.",
       image:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
