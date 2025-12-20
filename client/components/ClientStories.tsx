@@ -13,14 +13,14 @@ export function ClientStories() {
     },
     {
       headline: "From Couch to Competition",
-      client: "Priya Sharma",
+      client: "Ravi",
       story:
-        "I never thought I'd compete in a fitness competition. GURUSTHETICS believed in me when I didn't believe in myself. They guided me from complete beginner to competition stage!",
+        ""Guru corrected my form, fixed my diet, and kept me accountable daily by just making me do things in just 21 days.Best investment I’ve made—worth every rupee. His Program was the Game-Changer for me, Now I have Joined again for Powerlifting with him and I'm again very very satisfied as well."",
       image:
         "https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       results: [
         "First competition win",
-        "45% body fat reduction",
+        "25% body fat reduction",
         "New career",
       ],
     },
