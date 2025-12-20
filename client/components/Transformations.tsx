@@ -1,10 +1,9 @@
 export function Transformations() {
   const transformations = [
     {
-      before:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      
       after:
-        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://imglink.io/i/57b94ecc-25d2-4a3e-a104-a143a6cdc5cc.jpg",
       name: "Amit Kumar",
       duration: "8 months",
       weightLoss: "30kg",
